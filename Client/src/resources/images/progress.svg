@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="923.5" height="137.5" viewBox="0 0 923.5 137.5">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_130" width="733" height="70" class="cls-1" rx="12" transform="translate(179 1372)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path fill="none" d="M0 0H740V84H0z"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#87f2e7}.cls-10{fill:none}.cls-7{fill:#6be2d5}.cls-8{fill:#000348;font-size:18px;font-family:Montserrat-SemiBold,Montserrat;font-weight:600}.cls-9{opacity:.6}.cls-10{stroke:#fff}
+        </style>
+    </defs>
+    <g id="Group_1155" transform="translate(-179 -1304.5)">
+        <rect id="Rectangle_125" width="923" height="70" fill="#fff" rx="12" transform="translate(179 1372)"/>
+        <rect id="Rectangle_126" width="733" height="70" class="cls-1" rx="12" transform="translate(179 1372)"/>
+        <text id="Total_trading_fee_:_0.3_" fill="#fff" font-family="Montserrat-Bold, Montserrat" font-size="19px" font-weight="700" transform="translate(640 1331)">
+            <tspan x="-112.822" y="0">Total trading fee : 0.3%</tspan>
+        </text>
+        <g id="Group_12" clip-path="url(#clip-path)">
+            <g id="Repeat_Grid_10" clip-path="url(#clip-path-2)" transform="translate(172 1366)">
+                <g transform="translate(-172 -1366)">
+                    <path id="Path_1603" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(-134 -1366)">
+                    <path id="Path_1603-2" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(-96 -1366)">
+                    <path id="Path_1603-3" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(-58 -1366)">
+                    <path id="Path_1603-4" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(-20 -1366)">
+                    <path id="Path_1603-5" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(18 -1366)">
+                    <path id="Path_1603-6" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(56 -1366)">
+                    <path id="Path_1603-7" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(94 -1366)">
+                    <path id="Path_1603-8" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(132 -1366)">
+                    <path id="Path_1603-9" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(170 -1366)">
+                    <path id="Path_1603-10" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(208 -1366)">
+                    <path id="Path_1603-11" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(246 -1366)">
+                    <path id="Path_1603-12" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(284 -1366)">
+                    <path id="Path_1603-13" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(322 -1366)">
+                    <path id="Path_1603-14" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(360 -1366)">
+                    <path id="Path_1603-15" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(398 -1366)">
+                    <path id="Path_1603-16" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(436 -1366)">
+                    <path id="Path_1603-17" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(474 -1366)">
+                    <path id="Path_1603-18" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(512 -1366)">
+                    <path id="Path_1603-19" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+                <g transform="translate(550 -1366)">
+                    <path id="Path_1603-20" d="M28.787 0h23.03L23.03 84H0z" class="cls-7" transform="translate(172 1366)"/>
+                </g>
+            </g>
+        </g>
+        <text id="_0.27_to_liquidity_providers" class="cls-8" transform="translate(546 1413)">
+            <tspan x="-124.938" y="0">0.27% to liquidity providers</tspan>
+        </text>
+        <text id="_0.03_as_staking_reward" class="cls-8" transform="translate(1003 1401)">
+            <tspan x="-41.958" y="0">0.03% as </tspan><tspan x="-69.786" y="25">staking reward</tspan>
+        </text>
+        <g id="Group_1146" class="cls-9" transform="translate(0 7)">
+            <path id="Line_12" d="M0 0L0 39" class="cls-10" transform="translate(179.5 1297.5)"/>
+            <path id="Line_13" d="M299 0L0 0" class="cls-10" transform="translate(179.5 1317.5)"/>
+        </g>
+        <g id="Group_1147" class="cls-9" transform="translate(803 1304.5)">
+            <path id="Line_12-2" d="M0 0L0 39" class="cls-10" transform="translate(299)"/>
+            <path id="Line_13-2" d="M0 0L299 0" class="cls-10" transform="translate(0 20)"/>
+        </g>
+    </g>
+</svg>

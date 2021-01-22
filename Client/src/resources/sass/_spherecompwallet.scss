@@ -1,0 +1,232 @@
+@import "./utilities/variables";
+
+// Start Section 1
+
+.wallet-section-1-container{
+    background-color: $blue-color;
+    color: $white-color;
+    min-height: 535px;
+    .spherecompwallet{
+        .headingicon{
+            @include sections-spacing(68px);
+            width: 206.5px;
+            height: 44px;
+        }
+        .heading{
+            @include sections-spacing(15px);
+            width: 460px;
+            height: 123px;
+           // margin: 20px 225px 20px 0;
+            font-size: 29px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.45;
+            letter-spacing: normal;
+            text-align: left;
+        }
+    }
+    .description{
+        @include sections-spacing(18px);
+        width: 460px;
+        height: 95px;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: left;
+    }
+        .component{
+              @include sections-spacing(58px);
+              width: 411px;
+              height: 367px;
+        }
+        
+
+    // Small devices (landscape phones, 576px and up)
+	@media (max-width: 768px) {
+        padding-left: 30px;
+        padding-bottom: 40px;
+        .spherecompwallet{
+            .headingicon{
+                @include sections-spacing(39px);
+                width: 210px;
+                height: 52px;
+            }
+            .heading{
+                @include sections-spacing(16px);
+                width: 302px;
+                height: 131px;
+                font-size: 24px;
+                line-height: 1.42;
+            }
+        }
+        .description{
+            @include sections-spacing(24px);
+            width: 315px;
+            height: 122px;
+            line-height: 1.43;
+        }
+            .component{
+                @include sections-spacing(24px);
+                width: 353px;
+                height: 315px;
+            }
+    }
+}
+
+
+
+// Start Section 3
+
+.wallet-section-3-container{
+
+    .headingsection{
+        float: right;
+        .heading{
+            @include sections-spacing(104px);
+            margin-left: 190px;
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.42;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000348;
+          }
+
+          .tittle1{
+            @include sections-spacing(28px);
+            margin-left: 190px;
+         
+           .bulett{
+              width: 10px;
+              height: 10px;
+           }
+            .description1{
+                    width: 332px;
+                    height: 85px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.57;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: rgba(0, 0, 0, 0.8);
+                }
+       
+        }
+            .tittle2{
+                @include sections-spacing(20px);
+                margin-left: 190px;
+                .bulett2{
+                    width: 10px;
+                    height: 10px;
+                }
+
+            .description2{
+                   width: 332px;
+                   height: 113px;
+                   font-size: 14px;
+                   font-weight: 500;
+                   font-stretch: normal;
+                   font-style: normal;
+                   line-height: 1.57;
+                   letter-spacing: normal;
+                   text-align: left;
+                   color: rgba(0, 0, 0, 0.8);
+               }
+           }
+        }
+
+
+    .imagesection{
+        @include sections-spacing(88px);
+        //  width: 100%;
+          text-align: center;
+          .sendmondey_success{
+              margin: auto;
+          //    width: 162px;
+              height: 350px;
+              object-fit: contain;
+          }
+    }
+
+    	// Small devices (landscape phones, 576px and up)
+	 @media (max-width: 768px) {
+
+        .headingsection{
+           
+            .heading{
+                margin: 40px 0 0 30px;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000348;
+            }
+            .tittle1{
+                @include sections-spacing(20px);
+                margin-left: 30px;
+             
+               .bulett1{
+                  width: 10px;
+                  height: 10px;
+               }
+            .description1{
+                width: 332px;
+                height: 85px;
+                font-size: 14px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.57;
+                letter-spacing: normal;
+                text-align: left;
+                color: rgba(0, 0, 0, 0.8);
+            }
+
+          }
+            .tittle2{
+                @include sections-spacing(20px);
+                margin-left: 30px;
+               .bulett2{
+                  width: 10px;
+                  height: 10px;
+               }
+                .description2{
+                    width: 332px;
+                    height: 113px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.57;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: rgba(0, 0, 0, 0.8);
+                }
+            }    
+        }
+
+        .imagesection{
+            @include sections-spacing(30px);
+            width: 100%;
+            text-align: center;
+             .wallet_main{
+                   margin-left: auto;
+                   margin-right: auto;
+                 width: 162px;
+                 height: 350px;
+             }
+         } 
+  
+     }
+}

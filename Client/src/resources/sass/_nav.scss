@@ -1,14 +1,15 @@
 @import "utilities/variables";
 
 .navbar {
-  .message_icon_mobile {
-    margin-left: 40px;
-  }
+ // position: fixed;
   .logo {
     width: 181.1px;
     height: 47.9px;
     margin: 0 78.9px 0.1px 0;
     object-fit: contain;
+  }
+  .dropdown-item{
+    margin-left: 1px;
   }
 
   .dropdown-toggle {
@@ -45,6 +46,19 @@
       .active {
         font-weight: 600;
       }
+      .btn{
+        width: 202px;
+        height: 48px;
+        background-color: #2e37f2;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
     }
   }
 
@@ -52,5 +66,13 @@
     width: 46px;
     height: 46px;
     object-fit: contain;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+
+     .message_icon_mobile {
+  //    margin-left: 40px;
+    }
   }
 }

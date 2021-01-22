@@ -1,19 +1,26 @@
 @import "utilities/variables";
 
 .section2 {
-	padding: 10px;
+	//padding: 10px;
 
 	.title {
-	  	font-size: $title-font-size;
+		@include sections-spacing(60px);
+		font-size: 24px;
+		width: 314px;
+        height: 63px;
 	  	font-weight: bold;
 	  	font-stretch: normal;
 	  	font-style: normal;
-	  	line-height: 1.45;
-	  	text-align: left;
+	  	line-height: 1.42;
+		text-align: left;
+		color: #000348;
+
 	}
 
   	.subtitle {
-  		@include sections-spacing(10px);
+		@include sections-spacing(20px);
+		width: 323px;
+        height: 96px;
 	  	font-size: 16px;
 	  	font-weight: 500;
 	  	font-stretch: normal;
@@ -23,13 +30,16 @@
     	color: rgba(0, 0, 0, 0.8);
   }
 
+
   	// Small devices (landscape phones, 576px and up)
 	@media (max-width: 767px) {
-		@include sections-spacing(10px);
-		padding: 0 30px 0 30px;
+
+		padding: 0 0 0 30px;
 		
 		.title {
-			@include sections-spacing(20px);
+			@include sections-spacing(30px);
+			width: 315px;
+            height: 54px;
 	  		font-size: 20px;
 		    font-weight: bold;
 		    line-height: 1.4;
@@ -38,8 +48,82 @@
 		    color: #000348;
 		}
 		.subtitle {
+			@include sections-spacing(10px);
+			width: 341px;
+			height: 72px;
+	  		font-size: $discription-font-size;
+		    font-weight: normal;
+		    line-height: 1.38;
+		    letter-spacing: normal;
+		    text-align: left;
+		    color: rgba(57, 57, 57, 0.8);
+		}
+	}
+	@media (max-width: 768px) {
+		.video-section {
 			@include sections-spacing(30px);
-	  		font-size: 13px;
+		}
+	}
+	@media (min-width: 768px) {
+    	@include app-border();
+
+     	padding: 50px;
+	}
+}
+
+.section5 {
+	//padding: 10px;
+	background-image: linear-gradient(to right, #28d2cf , #1071e3);
+
+	.title {
+		@include sections-spacing(60px);
+		font-size: 24px;
+		width: 314px;
+        height: 63px;
+	  	font-weight: bold;
+	  	font-stretch: normal;
+	  	font-style: normal;
+	  	line-height: 1.42;
+		text-align: left;
+		color: #000348;
+
+	}
+
+  	.subtitle {
+		@include sections-spacing(20px);
+		width: 323px;
+        height: 96px;
+	  	font-size: 16px;
+	  	font-weight: 500;
+	  	font-stretch: normal;
+	  	font-style: normal;
+	  	line-height: 1.5;
+	  	text-align: left;
+    	color: rgba(0, 0, 0, 0.8);
+  }
+
+
+  	// Small devices (landscape phones, 576px and up)
+	@media (max-width: 767px) {
+
+		padding: 0 0 0 30px;
+
+		.title {
+			@include sections-spacing(30px);
+			width: 315px;
+            height: 54px;
+	  		font-size: 20px;
+		    font-weight: bold;
+		    line-height: 1.4;
+		    letter-spacing: normal;
+		    text-align: left;
+		    color: #000348;
+		}
+		.subtitle {
+			@include sections-spacing(10px);
+			width: 341px;
+			height: 72px;
+	  		font-size: $discription-font-size;
 		    font-weight: normal;
 		    line-height: 1.38;
 		    letter-spacing: normal;

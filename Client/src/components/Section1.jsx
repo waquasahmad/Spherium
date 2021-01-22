@@ -1,7 +1,7 @@
 import React from 'react'
-import geography from "../resources/images/geography.gif";
-import geographyPNG from "../resources/images/geography.png";
+import { Link } from 'react-router-dom';
 import globe from "../resources/images/globe.svg";
+import halfglobe from "../resources/images/halfglobe.svg";
 
 const Section1 = () => {
     return (
@@ -9,21 +9,21 @@ const Section1 = () => {
             <div className="home-details-section">
                 <div className="container">
                     <div className="row col-12">
-                        <div className="col-md-6 col-sm-12">
+                        <div className="col-md-6 col-sm-12" data-aos="fade-right">
                             <div className="headings">
-                                <p>A decentralised and borderless financial system that gives users a complete control of their financials</p>
+                                <p>A decentralised and borderless financial system that gives users a complete control of their finances</p>
                             </div>
                             <div className="description">
-                                <p>Aiming to be a decentralised platform for some of the most advanced Defi products and assets protocols whereby users can manage and trade assets on large liquidity pools cost effectively.</p>
+                                <p>Transparent, Decentralized, non-custodial, and user-friendly one-stop platform in the De-Fi space with a minimal effort.</p>
                             </div>
-                            <div className="row col-6 section1-buttons">
-                                <a className="btn white-paper" href="#">Contact us</a>
-		      	            <a className="btn white-paper" href="#">Whitepaper</a>
+                            <div className="row col-12 section1-buttons">
+                                <Link className="btn white-paper" to="/contactus">Contact us</Link> &nbsp; &nbsp; &nbsp; &nbsp;
+                                <Link className="btn white-paper" to="/document">Whitepaper</Link>
                             </div>
                         </div>
-                        <div className="col-md-6 col-sm-12 text-align-center globe-section">
+                        <div className="col-md-6 col-sm-12 text-align-right globe-section animate__animated animate__slideInDown">
                             <img src={globe} className="geography" />
-                            {/* {< img src={geographyPNG} srcset="images/geography@2x.png 2x, images/geography@3x.png 3x" className="geography" />} */}
+                            {/* <img src={halfglobe} className="halfglobe mobile-view" /> */}
                         </div>
                     </div>
                 </div>

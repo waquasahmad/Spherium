@@ -1,0 +1,220 @@
+@import "./utilities/variables";
+
+
+// Start Section 1
+
+.spherecomp-section-1-container{
+    background-color: $blue-color;
+    color: $white-color;
+    min-height: 535px;
+    .spherecomp{
+        .headingicon{
+            @include sections-spacing(72px);
+            width: 163.8px;
+            height: 35px;
+            object-fit: contain;
+        }
+        .heading{
+            @include sections-spacing(20px);
+            width: 444px;
+            height: 250px;
+           // margin: 20px 225px 20px 0;
+            font-size: 29px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.45;
+            letter-spacing: normal;
+            text-align: left;
+        }
+    }
+    .mobile{
+        margin-bottom: 124px;
+        .wallets{
+              @include sections-spacing(56px);
+            width: 162px;
+         //   height: 349px;
+        }
+        .adrian{
+            @include sections-spacing(69px);
+              width: 162px;
+           //   height: 350px;
+              margin-left: -60px;
+              object-fit: contain;
+        }
+    }
+
+    // Small devices (landscape phones, 576px and up)
+	@media (max-width: 768px) {
+        padding-left: 30px;
+        .spherecomp{
+            .headingicon{
+                @include sections-spacing(48px);
+                width: 170.8px;
+                height: 35px;
+            }
+            .heading{
+            //    margin: 24px 131px 24px 0;
+                width: 327px;
+                height: 209px;
+                font-size: 24px;
+                line-height: 1.42;
+                letter-spacing: normal;
+            }
+        }
+        .description{
+          //  margin: 24px 80px 0 0;
+            width: 315px;
+            height: 161px;
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+        }
+        .mobile{
+            text-align: center;
+            margin-bottom: 62px;
+            .wallets{
+                @include sections-spacing(40px);
+               width: 143px;
+             //  height: 309px;
+            }
+            .adrian{
+                @include sections-spacing(57px);
+                  width: 143px;
+                 // height: 309px;
+            }
+        }
+    }
+
+}
+
+
+
+
+// Start Section3
+
+
+.spherecomp-section-3-container{
+    @include sections-spacing(40px);
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+
+    .tittle{
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.42;
+        text-align: left;
+        color: #000348;
+    }
+
+ .subcontainer{
+    @include sections-spacing(65px);
+    padding-left: 65px;
+    margin-bottom: 80px;
+
+    .number{
+        
+        .one{
+            padding: 2px 0 0 28px;
+        }
+        .two{
+            padding: 2px 0 0 20px;
+        }
+        .three{
+            padding: 2px 0 0 20px;
+        }
+    }
+
+    .heading{
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000348;
+
+        .description{
+            width: 357px;
+            height: 51px;
+                    
+        }
+    }
+
+    .line{
+        padding: 0 0 20px 37px;
+    }
+
+  }
+
+   // Small devices (landscape phones, 576px and up)
+	@media (max-width: 768px) {
+        @include sections-spacing(39.9px);
+        padding-left: 30px;
+        padding-right: 30px;
+        .tittle{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.42;
+            text-align: left;
+            color: #000348;
+        }
+    
+     .subcontainer{
+        @include sections-spacing(29px);
+        padding-left: 0px;
+    
+        .number{
+            
+            .one{
+                padding: 2px 0 0 8px;
+            }
+            .two{
+                padding: 2px 0 0 6px;
+            }
+            .three{
+                padding: 2px 0 0 6px;
+            }
+        }
+    
+        .heading{
+            line-height: 1.57;
+    
+            .description{
+                width: 287px;
+             //   height: 64px;                                      
+            }
+        }
+    
+        .line{
+            padding: 0 0 20px 20px;
+        }
+    
+        .cube1{
+            @include sections-spacing(18px);
+            width: 71.5px;
+            height: 43.6px;   
+        }
+
+        .cube2{
+            @include sections-spacing(40px);
+            width: 71.5px;
+            height: 43.6px;   
+        }
+
+        .cube3{
+            @include sections-spacing(126px);
+            width: 71.5px;
+            height: 43.6px;   
+        }
+    
+      }
+        
+    }
+
+}

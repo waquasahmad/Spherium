@@ -6,6 +6,9 @@
 @use 'section2';
 @import './hyperswap_section3';
 @import './team';
+@import './spherecomp';
+@import './spherecompwallet';
+@import './document';
 
 @import "utilities/variables";
 
@@ -27,11 +30,27 @@
     @include sections-spacing(20px);
 		@include app-border();
     padding: 17px 28px 28px 24px;
+    cursor: pointer;
+    &:hover{
+      background-image: linear-gradient(to right, #28d2cf , #1071e3);
+    }
 		.title {
 			@include fontsize(18px);
 			margin-top: 8px;
 			font-weight: 900;
-		}
+    }
+    .details{
+
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.63;
+      letter-spacing: normal;
+      text-align: left;
+      color: rgba(0, 0, 0, 0.8);
+
+    }
 
 		.right-arrow { float: right; }
 		span { margin-top: 8px; display: block; }
@@ -70,6 +89,18 @@
 
     .product-sub-section {
       @include sections-spacing(20px);
+
+      .title {
+        @include fontsize(14px);
+        margin-top: 8px;
+        font-weight: 900;
+      }
+      .details{
+        
+        font-size: 13px;
+        line-height: 1.33;
+        
+      }
     }
 
   }
@@ -78,7 +109,7 @@
 
     .product-sub-section {
       min-width: 100%;
-      min-height: 264px;
+    //  min-height: 264px;
 
     }
   }
@@ -204,6 +235,7 @@
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
 
+   
   }
   @media (min-width: 768px) {
     border-radius: 12px;
@@ -266,7 +298,7 @@
 
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
-    padding: 0 10px 0 10px;
+    padding: 0 0 0 30px;
 
     .tokenomics-image {
       img {
@@ -276,7 +308,7 @@
     }
     .governance-image {
       img {
-        height: 120px;
+        height: 200.8px;
         width: 100%;
       }
     }
@@ -284,13 +316,13 @@
   @media (min-width: 768px) {
     .tokenomics-image {
       img {
-        height: 270px;
+        height: 262px;
         width: 100%;
       }
     }
     .governance-image {
       img {
-        height: 270px;
+        height: 261.8px;
         width: 100%;
       }
     }
@@ -383,10 +415,16 @@
 .contactus {
   @include sections-spacing(30px);
   background-color: $light-blue;
+  background-image: linear-gradient(to right, #28d2cf , #1071e3);
 
   input {
     border-radius: 8px;
     background-color: #ffffff;
+  }
+  .form-inputs p {
+    font-size: 0.8rem;
+   // margin-top: 0.5rem;
+    color: #f00e0e;
   }
 
   // Small devices (landscape phones, 576px and up)
@@ -450,18 +488,18 @@
     letter-spacing: normal;
     text-align: left;
     color: $white-color;
+    opacity: 0.8;
   }
 
   .social-icons {
     padding-left: 0;
-
     li {
-      list-style: none;
-      float: left;
+       list-style: none;
+       float: left;
 
       img {
         @include sections-spacing(21.5px);
-        margin-right: 17.3px;
+        margin-right: 5px;
         width: 39.7px;
         height: 39.7px;
         object-fit: contain;
@@ -479,18 +517,20 @@
     letter-spacing: normal;
     text-align: left;
     color: $white-color;
+    opacity: 0.8;
   }
 
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
  //   margin: 41px 0 0;
-    padding: 29.6px 0 0 30px;
+    padding: 25px 0px 38.8px 20px;
+  //  background-color: #22265d;
 
     .line{
      // width: 353.5px;
     // margin-left: 30px;
-      opacity: 1;
-      border: solid 0.5px #ffffff;
+      opacity: 0.8;
+    //  border: solid 0.5px #ffffff;
     }
 
     .logo {
@@ -500,8 +540,8 @@
     .footer-title {
       @include sections-spacing(20px);
     //  height: 19px;
-      font-size: 15px;
-      line-height: 1.2;
+      font-size: 14px;
+      line-height: 1.29;
     }
   
     .footer-sub-title {
@@ -532,7 +572,8 @@
     }
   
     .footerend{
-      @include sections-spacing(63.6px);
+      @include sections-spacing(40px);
+      margin-bottom: 38.8px;
       font-size: 11px;
       font-weight: 500;
       font-stretch: normal;

@@ -7,8 +7,9 @@ import AlexBerstein from "./resources/images/leadershipteam/Alex Berstein1.jfif"
 import SashJeetun from "./resources/images/leadershipteam/Sash Jeetun2.jfif";
 import AanchalThakur from "./resources/images/leadershipteam/Aanchal Thakur3.jfif";
 import SaifAkhtar from "./resources/images/leadershipteam/Saif Akhtar4.jfif";
-import AlexanderSchneuwly from "./resources/images/leadershipteam/Alexander Schneuwly5.jfif";
-import AdrianSchneuwly from "./resources/images/leadershipteam/Adrian Schneuwly6.jfif";
+import DeepakVachher from "./resources/images/leadershipteam/Deepak.png";
+// import AdrianSchneuwly from "./resources/images/leadershipteam/Adrian Schneuwly6.jfif";
+import KeirFinlowBates from "./resources/images/leadershipteam/Keir Finlow Bates6.jfif";
 import FaisalKhan from "./resources/images/leadershipteam/Faisal Khan7.jfif";
 import RobertSalmon from "./resources/images/advisors/Robert Salmon.jfif";
 import ErikVanRompay from "./resources/images/advisors/Erik Van Rompay.jfif";
@@ -53,17 +54,17 @@ const leaderships = [
         twitter: "https://twitter.com/",
     },
     {
-        userImg: AlexanderSchneuwly,
-        userName: "Alexander Schneuwly",
+        userImg: DeepakVachher,
+        userName: "Deepak Vachher",
         designation: "CFO",
-        linkedin: "https://www.linkedin.com/in/alexanderschneuwly",
+        linkedin: "https://www.linkedin.com/in/deepak-vachher-0618b74b",
         twitter: "https://twitter.com/",
     },
     {
-        userImg: AdrianSchneuwly,
-        userName: "Adrian Schneuwly",
+        userImg: KeirFinlowBates,
+        userName: "Keir Finlow Bates",
         designation: "CTO",
-        linkedin: "https://www.linkedin.com/in/adrian-schneuwly/",
+        linkedin: "https://www.linkedin.com/in/keirf",
         twitter: "https://twitter.com/",
     },
     {
@@ -163,18 +164,18 @@ const Section1 = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 title">
-                        <span>The dream team</span>
+                        <span>The Dream Team</span>
                     </div>
 
                     <div className="col-12 subtitle">
-                        <img src={map} className="map web-view" />
-                        <div className="subtext">
+                        <img src={map} className="map web-view" data-aos="zoom-in" />
+                        {/*<div className="subtext" >
                             <p>Our team consists of a diverse group of individuals who are friendly, motivated, and having a clear sense of purpose. All the team members work autonomously, taking ownership over their work, and having individual power to improve results. They regularly engage with new challenges since they speak to their interests. At the same time, they are always willing to lend a helping hand to their colleagues, keeping the team spirit alive.</p>
-                        </div>
+                        </div>*/}
                     </div>
-                    <div className="col-12 teambutton">
-                        <a className="btn" href="https://twitter.com/">Join the team</a>
-                    </div>
+                    {/*<div className="col-12 teambutton">
+                        <a className="btn" href="https://twitter.com/" target="_blank">Join the team</a>
+                    </div>*/}
                     <div className="col-12">
                         <img src={mapmobile} className="mapmobile mobile-view" />
                     </div>
@@ -218,8 +219,8 @@ const Section2 = () => {
                                         </div>
                                     </div>
                                     <div className="col">
-                                        <a href={leader.linkedin}><AiFillLinkedin /></a>
-                                        <a href={leader.twitter}><AiFillTwitterSquare /></a>
+                                        <a href={leader.linkedin}><AiFillLinkedin style={{ fontSize: '24px'}}/></a>
+                                        {/* <a href={leader.twitter}><AiFillTwitterSquare /></a> */}
                                     </div>
                                 </div>
                             </div>
@@ -256,8 +257,8 @@ const Section3 = () => {
                                         </div>
                                     </div>
                                     <div className="col social_icon">
-                                        <a href={advisor.linkedin}><AiFillLinkedin /></a>
-                                        <a href={advisor.twitter}><AiFillTwitterSquare /></a>
+                                        <a href={advisor.linkedin}><AiFillLinkedin style={{ fontSize: '24px'}}/></a>
+                                        {/* <a href={advisor.twitter}><AiFillTwitterSquare /></a> */}
                                     </div>
                                 </div>
                             </div>
@@ -295,8 +296,8 @@ const Section4 = () => {
 
                                     </div>
                                     <div className="col">
-                                        <a href={rockstar.linkedin}><AiFillLinkedin /></a>
-                                        <a href={rockstar.twitter}><AiFillTwitterSquare /></a>
+                                        <a href={rockstar.linkedin}><AiFillLinkedin style={{ fontSize: '24px'}}/></a>
+                                        {/* <a href={rockstar.twitter}><AiFillTwitterSquare /></a> */}
                                     </div>
                                 </div>
                             </div>

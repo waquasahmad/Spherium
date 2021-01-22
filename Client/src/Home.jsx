@@ -9,6 +9,7 @@ import Section1 from './components/Section1'
 import Section2 from './components/Section2'
 import Tokenomics from './components/Tokenomics'
 import Vision from './components/Vision'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
                             <div className="title">
                                 <span>Tokenomics</span>
                                 <div className="mobile-view float-right">
-                                    <a href="#" className="anchor">View Details</a>
+                                    <Link to="/document" className="anchor" >View Details</Link>
                                 </div>
                             </div>
                             <div className="left-container">
@@ -36,7 +37,8 @@ const Home = () => {
                         <div className="col-md-6 col-sm-12">
                             <div className="title"> <span>Governance</span>
                                 <div className="mobile-view float-right">
-                                    <a href="#" className="anchor">View Details</a>
+                                    {/* <a href="#" className="anchor">View Details</a> */}
+                                    <Link to="/document" className="anchor">View Details</Link>
                                 </div>
                             </div>
                             <div className="right-container">

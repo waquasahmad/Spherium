@@ -1,0 +1,134 @@
+@import "utilities/variables";
+
+
+.document-section{
+    @include sections-spacing(5px);
+    .leftside{
+        height: 100;
+        background-color: #f7f7f7;
+    .navbar{
+   // height: 100%;
+   position: fixed;
+   padding: 40px 30px;
+        .nav{
+            a{
+                color:black;
+            }
+            .active {
+                border-left: 2x solid #2e37f2 !important;
+              }
+              &:hover{
+                  color: #2e37f2;
+              }
+        }
+    
+   }
+
+    }
+
+    .right-side{
+   padding-left: 60px;
+  // position: relative;
+.whitepaper{
+    @include sections-spacing(42px);
+    width: 850px;
+    .btn{
+        @include sections-spacing(30px);
+        width: 203px;
+        height: 48px;
+        background-color: #2e37f2;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 8px;
+      }
+}
+
+.tokenomics{
+   @include sections-spacing(100px); 
+    .tokenomics{
+        @include sections-spacing(5px);
+        width: 842px;
+        height: 295px;
+        object-fit: contain;
+    }
+}
+
+.governance{
+    @include sections-spacing(10px); 
+}
+
+.title{
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000348;
+}
+.description{
+    @include sections-spacing(14px);
+    width: 850px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(57, 57, 57, 0.8);
+}
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 767px) {
+    
+    .right-side{
+        padding-left: 30px;
+     .whitepaper{
+         @include sections-spacing(15px);
+         .btn{
+            @include sections-spacing(5px);
+            float: left;
+           }
+     }
+     
+     .tokenomics{
+         @include sections-spacing(90px); 
+         .tokenomics{
+            @include sections-spacing(0px); 
+            width: 323px;
+            height: 313px;
+            object-fit: contain;
+         }
+     }
+     
+     .governance{
+         @include sections-spacing(20px); 
+     }
+     
+     .title{
+         font-size: 18px;
+         line-height: 1.5;
+     }
+     .description{
+         @include sections-spacing(15px);
+         width: 354px;
+         font-size: 14px;
+         line-height: 1.57;
+         color: rgba(0, 0, 0, 0.8);
+     }
+     
+     }
+
+}
+
+}

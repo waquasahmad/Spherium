@@ -111,6 +111,7 @@
     .part-1 {
         border-radius: 12px;
         background-color: #87f2e7;
+        background-image: linear-gradient(to right, #28d2cf , #1071e3);
         
         .heading{
             @include sections-spacing(50px);
@@ -122,21 +123,19 @@
             letter-spacing: normal;
             text-align: center;
             color: #000348;
-        }
-        .btns-hyperswap{
-            @include sections-spacing(40px);
-           // padding-left: 60px;
-           // padding-right: 60px;
-            width: 100%;
-            text-align: left;
+        }  
             .btns{
-                margin-left: 68px;
+                @include sections-spacing(40px);
                 margin-bottom: 50px;
-                width: 450px;
+           //     margin-left: 60px;
+               width: 450px;
                 height: 65px;
              //   padding-left: 30px;
                 border-radius: 12px;
                 background-color: #000348;
+                text-align: left;
+                padding-left:10px;
+                padding-top:10px;
 
                 .check{
                     height: 26px;
@@ -145,8 +144,8 @@
                 }
 
                 .btnheading{
-                     margin: 23px 26px 22px 12px;
-                    font-size: 16px;
+                    margin-left: 12px;
+                    font-size: 14px;
                     font-weight: 600;
                     font-stretch: normal;
                     font-style: normal;
@@ -156,7 +155,7 @@
                     color: #ffffff;
                 }
             }
-        }
+        
 
     }
     .part-2{
@@ -165,11 +164,11 @@
         border-radius: 12px;
 
         .bar{
-            width: 100%;
+          //  width: 100%;
             text-align: center;
             .progressbar{
                 margin:81.5px 0 50px 0;
-                width: 923px;
+               // width: 923px;
                 height: 137.5px;
                 margin-left: auto;
                 margin-right: auto;
@@ -180,11 +179,15 @@
 
     // Small devices (landscape phones, 576px and up)
 	@media (max-width: 768px) {
+        
         .part-1 {
+            padding: 0 0 40px 30px;
             background-color: #87f2e7;
             border-radius: 0px;
             .heading{
-                margin: 30px 120px 0 51px;
+                @include sections-spacing(30px);
+                margin-bottom: 20px;
+            //    margin-left: 30px;
                 width: 313px;
                 height: 52px;
                 font-size: 18px;
@@ -196,36 +199,45 @@
                 text-align: center;
                 color: #000348;
             }
-            .btns-hyperswap{
-                @include sections-spacing(20px);
-                
-                .btns{
-                    width: 354px;
-                    height: 48px;
-                    margin: 20px 0 0 30px;
-                    
-                    .check{
-                        margin: 13px 0 0 16px;
-                        text-align: left;
-                    }
-                    .btnheading{
-                        margin: 16px 0px 0px 10px;
-                        font-size: 13px;
-                        font-weight: 500;
-                        font-stretch: normal;
-                        font-style: normal;
-                        line-height: 1.54;
-                        letter-spacing: normal;
-                        text-align: left;
-                        color: #ffffff;
-                    }
+
+            .btns{
+                @include sections-spacing(0px);
+                margin-bottom: 20px;
+           //     margin-left: 60px;
+                width: 354px;
+                height: 48px;
+             //   padding-left: 30px;
+                border-radius: 12px;
+                background-color: #000348;
+                text-align: left;
+
+                .check{
+                     width: 22px;
+                      height: 22px;
+                      margin: 0 10px 0 0;
+                      object-fit: coyntain;
+                }
+
+                .btnheading{
+                    padding-top: 16px;
+                    margin-left: 0;
+                 //   height: 16px;
+                    font-size: 11px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.54;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #ffffff;
                 }
             }
 
+
             .mobileprogress{
-               // width: 354px;
-               // height: 255px;
-                  margin: 20px 0 40px 30px;
+               // width: 400px;
+             //   height: 255px;
+             //   margin: 20px 0 40px 30px;
             }
     
         }
@@ -255,7 +267,7 @@
         
     }
     .subtittle{
-        @include sections-spacing(16px);
+        @include sections-spacing(40px);
         margin-left: auto;
         margin-right: auto;
         width: 636px;
@@ -471,9 +483,13 @@
 .hyperswap-section-6-container{
     @include sections-spacing(40px);
     
+    
     .subsection{
         @include app-border();
         padding: 21px 30.7px 22px 30px;
+        justify-content: space-around;
+        flex-basis: 30%;
+        cursor: pointer;
 
         .product_icon{
             width: 64px;
@@ -536,7 +552,7 @@
 
         .productname{
             @include sections-spacing(13px);
-            font-size: 14px;
+            font-size: 11px;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
@@ -551,4 +567,9 @@
         
     }
     }
+    .hyperswap-section-5-container section2
+    {
+        background-image: linear-gradient(to right, red , yellow);
+    }
+
 }

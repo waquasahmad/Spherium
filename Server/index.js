@@ -30,9 +30,9 @@ app.use((err, req, res, next) => {
   }
 });
 // Run static setup
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/build'));
 app.get('/*', function (req, res) {
-  return res.sendFile(path.join(__dirname + '/views', 'index.html'));
+  return res.sendFile(path.join(__dirname + '/build', 'index.html'));
 });
 
 // create server connection

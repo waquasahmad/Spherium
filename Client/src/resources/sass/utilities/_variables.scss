@@ -1,0 +1,32 @@
+$font-stack: 'Montserrat', sans-serif;
+$primary-color: #0f0f0f;
+$white-color: #ffffff;
+$blue-color: #22265d;
+$light-blue: #87f2e7;
+$border-color: #87f2e7;
+$border-hover-color: #2e37f2;
+$font-weight800: 800;
+$title-font-size: 24px;
+$sub-title-font-size: 16px;
+$title-font-color: #000348;
+$grey-color: #f3f7fa;
+$button-color: #2e37f2;
+
+@mixin app-border(){
+  	border-radius: 12px;
+  	border: solid 1px $border-color;
+  	background-color: $white-color;
+}
+
+@mixin sections-spacing($space){ margin-top: $space; }
+
+@mixin fontsize($size){ font-size: $size; }
+
+@mixin width-height($width, $height){
+	width: $width;
+	height: $height;
+}
+
+@mixin text-align-right() {
+	text-align: right;
+}

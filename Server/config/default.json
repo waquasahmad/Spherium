@@ -1,0 +1,12 @@
+{
+  "smtp": {
+        "smtpUser": "AKIAZ2OAXCIMVMSSGZD2",
+        "smtpPass": "BPg5br1Q5whyqyF1c3BUvXvI9axx2UmH1LuapdWNzizV",
+        "smtpPort": 587,
+        "secure": false,
+        "rejectUnauthorized": false,
+        "smtpServer": "email-smtp.eu-west-1.amazonaws.com",
+        "mailFrom": "Spherium-Website <contact@spherium.finance>",
+        "mailTo": "contact@spherium.finance"            
+    }    
+}

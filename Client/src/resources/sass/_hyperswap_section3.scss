@@ -1,0 +1,554 @@
+@import "./utilities/variables";
+
+
+// Start Section 1
+
+.hyperswap-section-1-container{
+    background-color: $blue-color;
+    color: $white-color;
+    min-height: 535px;
+    .hyperswap{
+        .headingicon{
+            @include sections-spacing(72px);
+            width: 157px;
+            height: 35px;
+        }
+        .heading{
+            @include sections-spacing(20px);
+            width: 443px;
+            height: 121px;
+           // margin: 20px 225px 20px 0;
+            font-size: 29px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.45;
+            letter-spacing: normal;
+            text-align: left;
+        }
+    }
+    .description{
+        @include sections-spacing(20px);
+        width: 460px;
+        height: 159px;
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+      //  text-align: left;
+    }
+    .mobile{
+        margin-bottom: 124px;
+        .mobileWallets{
+              @include sections-spacing(56px);
+         //   width: 162px;
+         //   height: 349px;
+        }
+        .mobileExchange{
+            @include sections-spacing(69px);
+         //   width: 162px;
+         //   height: 350px;
+              margin-left: -60px;
+              object-fit: contain;
+        }
+    }
+
+    // Small devices (landscape phones, 576px and up)
+	@media (max-width: 768px) {
+        padding-left: 30px;
+        .hyperswap{
+            .headingicon{
+                @include sections-spacing(48px);
+                width: 157px;
+                height: 35px;
+            }
+            .heading{
+            //    margin: 24px 131px 24px 0;
+                width: 302px;
+                height: 131px;
+                font-size: 24px;
+                line-height: 1.42;
+                letter-spacing: normal;
+            }
+        }
+        .description{
+          //  margin: 24px 80px 0 0;
+            width: 315px;
+            height: 161px;
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+        }
+        .mobile{
+            text-align: center;
+            margin-bottom: 73px;
+            .mobileWallets{
+                @include sections-spacing(52px);
+               width: 143px;
+             //  height: 309px;
+            }
+            .mobileExchange{
+                @include sections-spacing(69px);
+                  width: 143px;
+                 // height: 309px;
+            }
+        }
+
+
+    }
+}
+
+
+// Start Section 3
+.hyperswap-section-3-container {
+    @include sections-spacing(40px);
+
+    .part-1 {
+        border-radius: 12px;
+        background-color: #87f2e7;
+        
+        .heading{
+            @include sections-spacing(50px);
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.42;
+            letter-spacing: normal;
+            text-align: center;
+            color: #000348;
+        }
+        .btns-hyperswap{
+            @include sections-spacing(40px);
+           // padding-left: 60px;
+           // padding-right: 60px;
+            width: 100%;
+            text-align: left;
+            .btns{
+                margin-left: 68px;
+                margin-bottom: 50px;
+                width: 450px;
+                height: 65px;
+             //   padding-left: 30px;
+                border-radius: 12px;
+                background-color: #000348;
+
+                .check{
+                    height: 26px;
+                    margin: 20px 0px 19px 26px;
+                    text-align: left;
+                }
+
+                .btnheading{
+                     margin: 23px 26px 22px 12px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.88;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #ffffff;
+                }
+            }
+        }
+
+    }
+    .part-2{
+        
+        background-color: #000348;
+        border-radius: 12px;
+
+        .bar{
+            width: 100%;
+            text-align: center;
+            .progressbar{
+                margin:81.5px 0 50px 0;
+                width: 923px;
+                height: 137.5px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+    }
+
+    // Small devices (landscape phones, 576px and up)
+	@media (max-width: 768px) {
+        .part-1 {
+            background-color: #87f2e7;
+            border-radius: 0px;
+            .heading{
+                margin: 30px 120px 0 51px;
+                width: 313px;
+                height: 52px;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: center;
+                color: #000348;
+            }
+            .btns-hyperswap{
+                @include sections-spacing(20px);
+                
+                .btns{
+                    width: 354px;
+                    height: 48px;
+                    margin: 20px 0 0 30px;
+                    
+                    .check{
+                        margin: 13px 0 0 16px;
+                        text-align: left;
+                    }
+                    .btnheading{
+                        margin: 16px 0px 0px 10px;
+                        font-size: 13px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.54;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            .mobileprogress{
+               // width: 354px;
+               // height: 255px;
+                  margin: 20px 0 40px 30px;
+            }
+    
+        }
+
+		
+	}
+    
+}
+
+// Start Section 4
+.hyperswap-section-4-container{
+    width: 100%;
+    .tittle{
+        @include sections-spacing(50px);
+        margin-left: auto;
+        margin-right: auto;
+        width: 560px;
+        height: 66px;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000348;
+        
+    }
+    .subtittle{
+        @include sections-spacing(16px);
+        margin-left: auto;
+        margin-right: auto;
+        width: 636px;
+        height: 67px;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .video-section{
+       @include sections-spacing(50px);
+        
+    }
+
+    
+  	// Small devices (landscape phones, 576px and up)
+	@media (max-width: 768px) {
+        padding-left: 30px;
+		.tittle {
+            margin: 30px 0 0 0;
+            width: 277px;
+            height: 77px;
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000348;
+		}
+
+		.subtittle {
+            margin: 16px 0 0 0;
+            width: 322px;
+            height: 92px;
+            font-size: 13px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.38;
+            letter-spacing: normal;
+            text-align: left;
+            color: rgba(57, 57, 57, 0.8);
+        }
+        .video-section{
+            @include sections-spacing(20px);
+
+        }
+	}
+    
+
+}
+
+
+// Start Section 5
+.hyperswap-section-5-container{
+    @include sections-spacing(40px);
+
+    .imagesection{
+      //  width: 100%;
+        text-align: center;
+        .wallet_main{
+            margin-left: auto;
+            margin-right: auto;
+        //    width: 162px;
+            height: 350px;
+         //   margin: 45px 0 45px 162px;
+            object-fit: contain;
+        }
+    }
+
+    .headingsection{
+
+        .heading{
+            @include sections-spacing(45px);
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.42;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000348;
+          }
+
+          .tittle1{
+            @include sections-spacing(28px);
+         
+           .bulett1{
+              width: 10px;
+              height: 10px;
+           }
+            .description1{
+                    width: 380px;
+                    height: 100px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.63;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: rgba(0, 0, 0, 0.8);
+                }
+       
+            }
+            .tittle2{
+                @include sections-spacing(20px);
+                .bulett2{
+                    width: 10px;
+                    height: 10px;
+                }
+
+            .description2{
+                   width: 380px;
+                   height: 49px;
+                   font-size: 16px;
+                   font-weight: 500;
+                   font-stretch: normal;
+                   font-style: normal;
+                   line-height: 1.63;
+                   letter-spacing: normal;
+                   text-align: left;
+                   color: rgba(0, 0, 0, 0.8);
+               }
+           }
+        
+        }
+
+    	// Small devices (landscape phones, 576px and up)
+	@media (max-width: 768px) {
+       padding-left: 30px;
+       padding-bottom: 65px;
+
+        .headingsection{
+           
+            .heading{
+                margin: 30px 0 0 0;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000348;
+            }
+            .tittle1{
+                @include sections-spacing(20px);
+             
+               .bulett1{
+                  width: 10px;
+                  height: 10px;
+               }
+            .description1{
+                width: 332px;
+                height: 100px;
+                font-size: 14px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.57;
+                letter-spacing: normal;
+                text-align: left;
+                color: rgba(0, 0, 0, 0.8);
+            }
+
+          }
+            .tittle2{
+                @include sections-spacing(20px);
+             
+               .bulett2{
+                  width: 10px;
+                  height: 10px;
+               }
+                .description2{
+                    width: 332px;
+                    height: 49px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.57;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: rgba(0, 0, 0, 0.8);
+                }
+            }
+
+            .imagesection{
+               width: 100%;
+               text-align: center;
+                .wallet_main{
+                    @include sections-spacing(30px);
+                      margin-left: auto;
+                      margin-right: auto;
+                    width: 162px;
+                    height: 350px;
+                }
+        } 
+        
+    }
+  }
+
+}
+
+// Start Section 6
+.hyperswap-section-6-container{
+    @include sections-spacing(40px);
+    
+    .subsection{
+        @include app-border();
+        padding: 21px 30.7px 22px 30px;
+
+        .product_icon{
+            width: 64px;
+            height: 64px;
+        }
+
+        .productname{
+            @include sections-spacing(19px);
+            font-size: 20px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.65;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000348;
+
+        }
+
+        .right_arrow { float: right; }
+		
+
+        p img:last-child {
+          display: none;  
+        }
+    
+            &:hover { 
+          border: solid 1px $border-hover-color; 
+    
+          p {
+            img:last-child {
+              display: block;  
+            }
+          }
+    
+          p {
+              img:first-child {
+              display: none;  
+            }
+          }
+        }
+    
+        p {
+          float: right;
+        }
+
+
+    }
+    
+    // Small devices (landscape phones, 576px and up)
+	@media (max-width: 768px) {
+        @include sections-spacing(65px);
+        padding: 0 0 30px 30px;
+        .subsection{
+            padding: 16px 23.7px 16px 16px;
+        .product_icon{
+              width: 46px;
+              height: 46px;
+        }
+
+        .productname{
+            @include sections-spacing(13px);
+            font-size: 14px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.36;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000348;
+
+        }
+
+        .right_arrow { margin-top: 13px; }
+        
+    }
+    }
+}

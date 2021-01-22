@@ -1,0 +1,546 @@
+@use 'base';
+@use 'nav';
+
+
+@use 'section1';
+@use 'section2';
+@import './hyperswap_section3';
+@import './team';
+
+@import "utilities/variables";
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 767px) {
+  .container {
+    padding: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .sections-start {
+    margin-top: -35px;
+  }
+}
+
+//Product section starts
+.product-section {
+	.product-sub-section {
+    @include sections-spacing(20px);
+		@include app-border();
+    padding: 17px 28px 28px 24px;
+		.title {
+			@include fontsize(18px);
+			margin-top: 8px;
+			font-weight: 900;
+		}
+
+		.right-arrow { float: right; }
+		span { margin-top: 8px; display: block; }
+
+    p img:last-child {
+      display: none;  
+    }
+
+		&:hover { 
+      border: solid 1px $border-hover-color; 
+
+      p {
+        img:last-child {
+          display: block;  
+        }
+      }
+
+      p {
+          img:first-child {
+          display: none;  
+        }
+      }
+    }
+
+    p {
+      float: right;
+      margin: 22px 0 0 0;
+    }
+	}
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+    @include sections-spacing(30px);
+    padding: 0 30px 0 30px;
+    margin-bottom: 12px;
+
+    .product-sub-section {
+      @include sections-spacing(20px);
+    }
+
+  }
+  @media (min-width: 768px) {
+    @include sections-spacing(40px);
+
+    .product-sub-section {
+      min-width: 100%;
+      min-height: 264px;
+
+    }
+  }
+}
+
+
+//Product Road Map Starts
+.product-icon {
+	@include width-height(52, 51);
+}
+
+.product-road-section {
+  @include sections-spacing(40px);
+
+  .image-section {
+    @include sections-spacing(20px);
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+    padding: 0 30px 0 30px;
+    .road-map {
+      @include sections-spacing(20px);
+      padding: 0 15px 0 15px;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  @media (min-width: 768px) {
+    .web-image {
+      display: block;
+    }
+    .mobile-image {
+      display: none;
+    }
+    .road-map {
+      @include sections-spacing(20px);
+      height: 460px;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+//Vision section starts
+.vision-section {
+  @include sections-spacing(40px);
+  color: $white-color;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+
+  .ceo {
+    @include sections-spacing(10px);
+    width: 150px;
+    height: 150px;
+  }
+
+  .quote {
+    @include sections-spacing(28px);
+
+    img {
+      width: 24px;
+      height: 21.5px;
+    }
+  }
+
+  .description {
+    @include sections-spacing(10px);
+    span {
+      display: block;
+      line-height: 1.63;
+    }
+  }
+
+  .signature {
+    @include sections-spacing(20px);
+    padding-left: 0px;
+
+    .meet-our-team {
+      padding-top: 12px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      a {
+        color: #87f2e7;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .title {
+    color: $white-color;
+  }
+
+  .left-container {
+    padding: 45px;
+    background-color: #22265d;
+  }
+
+  .right-container {
+    padding: 45px;
+    background-color: #0b0e36;
+  }
+
+  p {
+    @include fontsize(16px);
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: $white-color;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+
+  }
+  @media (min-width: 768px) {
+    border-radius: 12px;
+    .ceo {
+      border-radius: 12px;
+    }
+
+    .left-container {
+      border-radius: 12px 0 0 12px;
+    }
+
+    .right-container {
+      border-radius: 0 12px 12px 0;
+    }
+  }
+}
+
+.tokenomics-governance-section {
+  @include sections-spacing(40px);
+  @include fontsize(16px);
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+
+  .left-container {
+    @include sections-spacing(20px);
+    padding-bottom: 12px;
+    .tokenomics-image {
+      border-radius: 12px;
+      background-color: $grey-color;
+    }
+  }
+
+  .description {
+    @include sections-spacing(30px);
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(57, 57, 57, 0.8);
+    min-height: 150px;
+  }
+
+  .right-container {
+    @include sections-spacing(20px);
+    border-radius: 12px;
+    padding-bottom: 12px;
+  }
+
+  .button-section {
+    @include sections-spacing(20px);
+    a {
+      background-color: $button-color;
+      padding: 10px;
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+    padding: 0 10px 0 10px;
+
+    .tokenomics-image {
+      img {
+        height: 120px;
+        width: 100%;
+      }
+    }
+    .governance-image {
+      img {
+        height: 120px;
+        width: 100%;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    .tokenomics-image {
+      img {
+        height: 270px;
+        width: 100%;
+      }
+    }
+    .governance-image {
+      img {
+        height: 270px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.partners {
+    @include sections-spacing(30px);
+
+    div.partners-section {
+      @include sections-spacing(30px);
+
+      div.partners-inner-section {
+        border-radius: 12px;
+        border: solid 1px $border-color;
+        margin-bottom: 20px;
+
+        img {
+          width: 82.1px;
+          height: 78.2px;
+          padding: 0 0 0.4px 0.1px;
+        }
+      }
+    }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+    padding: 0 10px 0 10px;
+    .partners-inner-section {
+      padding: 22.9px 45.7px 25.9px 27.2px;
+    }
+  }
+  @media (min-width: 768px) {
+    .partners-inner-section {
+   //   padding: 39.9px 38.7px 41.9px 39.2px;
+    }
+  }
+}
+
+.news {
+  @include sections-spacing(30px);
+
+  div.news-section {
+    @include sections-spacing(20px);
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: $title-font-color;
+
+    div.news-inner-section {
+      img {
+        width: 100%;          
+      }
+      .news-description {
+        & > p:first-child {
+          font-weight: 600;
+        }
+        p:nth-child(2) {
+          color: rgba(0, 0, 0, 0.8);
+        }
+        padding: 20px;
+
+        a {
+          color: $button-color;
+          font-weight: 600;
+          text-decoration: underline;
+        }
+      }
+      border-radius: 12px;
+      border: solid 1px $border-color;
+      margin-bottom: 20px;
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+    padding: 0 10px 0 25px;
+    .title {
+      padding-left: 15px;
+    }
+  }
+  @media (min-width: 768px) {
+    
+  }
+}
+
+.contactus {
+  @include sections-spacing(30px);
+  background-color: $light-blue;
+
+  input {
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+    padding: 20px;
+
+    input {
+      height: 46px;
+      margin: 30px 50px 18px 0;
+    }
+  }
+  @media (min-width: 768px) {
+    padding: 45px 56px 42px 40px;
+    border-radius: 12px;
+    input {
+      height: 57px;
+      margin: 30px 50px 24px 0;
+    }
+  }
+}
+
+//footer start
+
+.footer {
+  background-color: $blue-color;
+  margin: 41px 0 0;
+  padding: 69px 70px 64px 70px;
+  color: $white-color;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  text-align: left;
+
+  .logo {
+    margin-bottom: 25.1px;
+    width: 156px;
+    height: 41.3px;
+    object-fit: contain;
+  }
+
+  .footer-title {
+    height: 19px;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $white-color;
+    text-decoration: none;
+  }
+
+  .footer-sub-title {
+    @include sections-spacing(14px);
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: $white-color;
+  }
+
+  .social-icons {
+    padding-left: 0;
+
+    li {
+      list-style: none;
+      float: left;
+
+      img {
+        @include sections-spacing(21.5px);
+        margin-right: 17.3px;
+        width: 39.7px;
+        height: 39.7px;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .footerend{
+    @include sections-spacing(63.6px);
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: $white-color;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+ //   margin: 41px 0 0;
+    padding: 29.6px 0 0 30px;
+
+    .line{
+     // width: 353.5px;
+    // margin-left: 30px;
+      opacity: 1;
+      border: solid 0.5px #ffffff;
+    }
+
+    .logo {
+      margin-bottom: 16.3px;
+    }
+  
+    .footer-title {
+      @include sections-spacing(20px);
+    //  height: 19px;
+      font-size: 15px;
+      line-height: 1.2;
+    }
+  
+    .footer-sub-title {
+      @include sections-spacing(12px);
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 2.46;
+      text-align: left;
+      color: $white-color;
+    }
+  
+    .social-icons {
+      padding-left: 0;
+  
+      li {
+        list-style: none;
+        float: left;
+  
+        img {
+          @include sections-spacing(21.5px);
+          margin-right: 17.3px;
+          width: 34px;
+          height: 34px;
+          object-fit: contain;
+          margin-bottom: 23.5px;
+        }
+      }
+    }
+  
+    .footerend{
+      @include sections-spacing(63.6px);
+      font-size: 11px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.27;
+      letter-spacing: normal;
+      text-align: left;
+      color: $white-color;
+    }
+  }
+}

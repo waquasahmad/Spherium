@@ -1,0 +1,56 @@
+@import "utilities/variables";
+
+.navbar {
+  .message_icon_mobile {
+    margin-left: 40px;
+  }
+  .logo {
+    width: 181.1px;
+    height: 47.9px;
+    margin: 0 78.9px 0.1px 0;
+    object-fit: contain;
+  }
+
+  .dropdown-toggle {
+    color: white;
+    padding: .5em 1em;
+  }
+
+  .dropdown-toggle::after {
+    display: inline-block;
+    width: .5em;
+    height: .5em;
+    margin: -.3em 0 0 .4em;
+    vertical-align: middle;
+    content: "";
+    border: .5em solid;
+    border-width: 0 .15em .15em 0;
+    transform: rotateZ(45deg);
+    color: $primary-color;
+
+    &.active {
+      font-weight: $font-weight800;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      margin: 0 37px;
+
+      a {
+        color: rgba(15, 15, 15, 0.71);
+        padding-left: 0px;
+      }
+
+      .active {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .messageIcon {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+  }
+}

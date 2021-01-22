@@ -1,0 +1,60 @@
+@import "utilities/variables";
+
+.section2 {
+	padding: 10px;
+
+	.title {
+	  	font-size: $title-font-size;
+	  	font-weight: bold;
+	  	font-stretch: normal;
+	  	font-style: normal;
+	  	line-height: 1.45;
+	  	text-align: left;
+	}
+
+  	.subtitle {
+  		@include sections-spacing(10px);
+	  	font-size: 16px;
+	  	font-weight: 500;
+	  	font-stretch: normal;
+	  	font-style: normal;
+	  	line-height: 1.5;
+	  	text-align: left;
+    	color: rgba(0, 0, 0, 0.8);
+  }
+
+  	// Small devices (landscape phones, 576px and up)
+	@media (max-width: 767px) {
+		@include sections-spacing(10px);
+		padding: 0 30px 0 30px;
+		
+		.title {
+			@include sections-spacing(20px);
+	  		font-size: 20px;
+		    font-weight: bold;
+		    line-height: 1.4;
+		    letter-spacing: normal;
+		    text-align: left;
+		    color: #000348;
+		}
+		.subtitle {
+			@include sections-spacing(30px);
+	  		font-size: 13px;
+		    font-weight: normal;
+		    line-height: 1.38;
+		    letter-spacing: normal;
+		    text-align: left;
+		    color: rgba(57, 57, 57, 0.8);
+		}
+	}
+	@media (max-width: 768px) {
+		.video-section {
+			@include sections-spacing(30px);
+		}
+	}
+	@media (min-width: 768px) {
+    	@include app-border();
+
+     	padding: 50px;
+	}
+}

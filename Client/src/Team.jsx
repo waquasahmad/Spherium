@@ -4,6 +4,7 @@ import mapmobile from './resources/images/mapmobile.svg';
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import AlexBerstein from "./resources/images/leadershipteam/Alex Berstein1.jfif";
+import ChristopherMarley from "./resources/images/leadershipteam/Christopher.jpeg";
 import SashJeetun from "./resources/images/leadershipteam/Sash Jeetun2.jfif";
 import AanchalThakur from "./resources/images/leadershipteam/Aanchal Thakur3.jfif";
 import SaifAkhtar from "./resources/images/leadershipteam/Saif Akhtar4.jfif";
@@ -72,6 +73,13 @@ const leaderships = [
         userName: "Faisal Khan",
         designation: "Head of Content and CMO",
         linkedin: "https://www.linkedin.com/in/faisal-khan-2a3009b",
+        twitter: "https://twitter.com/",
+    },
+    {
+        userImg: ChristopherMarley,
+        userName: "Christopher Marley",
+        designation: "Head of PR and Strategy",
+        linkedin: "https://www.linkedin.com/in/christopher-marley-0168b292",
         twitter: "https://twitter.com/",
     },
 ]

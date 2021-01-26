@@ -2,6 +2,7 @@
 
 
 .document-section{
+    
     @include sections-spacing(5px);
     .leftside{
         height: 100;
@@ -10,23 +11,25 @@
    // height: 100%;
    position: fixed;
    padding: 40px 30px;
-        .nav{
-            a{
-                color:black;
-            }
-            .active {
-                border-left: 2x solid #2e37f2 !important;
+        
+            a {
+                color: rgba(15, 15, 15, 0.71);
+                padding-left: 0px;
+                &:hover{
+                    color: #2e37f2;
+                }
+                .active {
+                    font-weight: 600;
+                 }
               }
-              &:hover{
-                  color: #2e37f2;
-              }
-        }
+        
     
    }
 
     }
 
     .right-side{
+
    padding-left: 60px;
   // position: relative;
 .whitepaper{

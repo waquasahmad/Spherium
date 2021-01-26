@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bc95d3f.chunk.css",
-    "main.js": "/static/js/main.42c58863.chunk.js",
-    "main.js.map": "/static/js/main.42c58863.chunk.js.map",
+    "main.css": "/static/css/main.ada6e8c8.chunk.css",
+    "main.js": "/static/js/main.e09cb709.chunk.js",
+    "main.js.map": "/static/js/main.e09cb709.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09aeb2ac.js",
     "runtime-main.js.map": "/static/js/runtime-main.09aeb2ac.js.map",
     "static/css/2.6d8fa2e2.chunk.css": "/static/css/2.6d8fa2e2.chunk.css",
@@ -12,11 +12,13 @@
     "static/js/3.d9a315e5.chunk.js.map": "/static/js/3.d9a315e5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.6d8fa2e2.chunk.css.map": "/static/css/2.6d8fa2e2.chunk.css.map",
-    "static/css/main.7bc95d3f.chunk.css.map": "/static/css/main.7bc95d3f.chunk.css.map",
+    "static/css/main.ada6e8c8.chunk.css.map": "/static/css/main.ada6e8c8.chunk.css.map",
     "static/js/2.fce85f27.chunk.js.LICENSE.txt": "/static/js/2.fce85f27.chunk.js.LICENSE.txt",
     "static/media/Aanchal Thakur3.f6d78afa.jfif": "/static/media/Aanchal Thakur3.f6d78afa.jfif",
     "static/media/Alex Berstein1.0454e418.jfif": "/static/media/Alex Berstein1.0454e418.jfif",
     "static/media/Behzad Pournouri.bed81ef8.jfif": "/static/media/Behzad Pournouri.bed81ef8.jfif",
+    "static/media/Carlos.86e98bac.jpeg": "/static/media/Carlos.86e98bac.jpeg",
+    "static/media/Cecilia.935d8a03.jpeg": "/static/media/Cecilia.935d8a03.jpeg",
     "static/media/Choose wallet.1985a150.png": "/static/media/Choose wallet.1985a150.png",
     "static/media/Choose wallet@2x.2b40a5c8.png": "/static/media/Choose wallet@2x.2b40a5c8.png",
     "static/media/Choose wallet@3x.42000060.png": "/static/media/Choose wallet@3x.42000060.png",
@@ -32,8 +34,10 @@
     "static/media/HaÏdar Ally.fe2a2e07.jfif": "/static/media/HaÏdar Ally.fe2a2e07.jfif",
     "static/media/Heather Swope1.f7cae463.jfif": "/static/media/Heather Swope1.f7cae463.jfif",
     "static/media/Keir Finlow Bates6.0ca14820.jfif": "/static/media/Keir Finlow Bates6.0ca14820.jfif",
+    "static/media/Manoj.40d8dc30.jpeg": "/static/media/Manoj.40d8dc30.jpeg",
     "static/media/Mushtaque Ahmed.a667c5c0.jfif": "/static/media/Mushtaque Ahmed.a667c5c0.jfif",
     "static/media/Pradyumn Singh.791ad022.jfif": "/static/media/Pradyumn Singh.791ad022.jfif",
+    "static/media/Prakash.70907c0f.jpeg": "/static/media/Prakash.70907c0f.jpeg",
     "static/media/Robert Salmon.462a4640.jfif": "/static/media/Robert Salmon.462a4640.jfif",
     "static/media/Saif Akhtar4.133bcfcd.jfif": "/static/media/Saif Akhtar4.133bcfcd.jfif",
     "static/media/Sash Jeetun2.3d30ac96.jfif": "/static/media/Sash Jeetun2.3d30ac96.jfif",
@@ -107,7 +111,7 @@
     "static/js/runtime-main.09aeb2ac.js",
     "static/css/2.6d8fa2e2.chunk.css",
     "static/js/2.fce85f27.chunk.js",
-    "static/css/main.7bc95d3f.chunk.css",
-    "static/js/main.42c58863.chunk.js"
+    "static/css/main.ada6e8c8.chunk.css",
+    "static/js/main.e09cb709.chunk.js"
   ]
 }

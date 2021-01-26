@@ -56,19 +56,19 @@ const onSubmit = (e) =>{
                     <form onSubmit={onSubmit} noValidate>
                         <div className="row">
                             <div className="col-md-6 col-sm-12 form-inputs">
-                                <input type="text" className="form-control" placeholder="Full name" onChange={inputEvent} name="full_name" value={user.full_name}/>
+                                <input type="text" className="form-control" placeholder="Full name *" onChange={inputEvent} name="full_name" value={user.full_name}/>
                                 {errors.full_name && <p>{errors.full_name}</p>}
 			    	        </div>
                                 <div className="col-md-6 col-sm-12 form-inputs">
-                                    <input type="email" className="form-control" placeholder="Email" onChange={inputEvent} name="email" value={user.email}/>
+                                    <input type="email" className="form-control" placeholder="Email *" onChange={inputEvent} name="email" value={user.email}/>
 				                    {errors.email && <p>{errors.email}</p>}
                                 </div>
                                     <div className="col-md-6 col-sm-12 form-inputs">
-                                        <input type="text" className="form-control" placeholder="Phone no." onChange={inputEvent} name="phone_number" value={user.phone_number}/>
+                                        <input type="text" className="form-control" placeholder="Phone number *" onChange={inputEvent} name="phone_number" value={user.phone_number}/>
 				                        {errors.phone_number && <p>{errors.phone_number}</p>}
                                     </div>
                                         <div className="col-md-6 col-sm-12 form-inputs">
-                                            <input type="text" className="form-control" placeholder="How did you hear about us" onChange={inputEvent} name="hear_about_us" value={user.hear_about_us}/>
+                                            <input type="text" className="form-control" placeholder="Your message here" onChange={inputEvent} name="hear_about_us" value={user.hear_about_us}/>
 				                            {errors.hear_about_us && <p>{errors.hear_about_us}</p>}
                                         </div>
                                             <div className="col-12">

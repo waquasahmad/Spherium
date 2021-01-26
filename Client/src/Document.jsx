@@ -9,7 +9,7 @@ const Document = () => {
             <div className="col-md-3 col-12 leftside web-view">
                 <nav id="navbar-example3" className="navbar">
                     <nav className="nav nav-pills flex-column">
-                        <a className="nav-link active" href="#item-1">Whitepaper</a>
+                        <a className="nav-link " href="#item-1">Whitepaper</a>
                         <a className="nav-link " href="#item-2">Tokenomics</a>
                         <a className="nav-link " href="#item-3">Governance</a>
                     </nav>
@@ -18,7 +18,7 @@ const Document = () => {
 
             <div className="col-md-9 col-12 right-side">
 
-                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="10" tabindex="0" className="scrollspy-example">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="10">
                     <div className="whitepaper col-12">
                         <span id="item-1" className="title">Whitepaper</span>
                         <p className="description">This is our first version of the White Paper, we are also working on defining our further capabilities like enabling cross chain using solutions such as RenVM and optimizing on Ethereum Layer 2.

@@ -55,6 +55,11 @@ p { word-wrap: break-word; }
   .web-view { display: none; }
   .mobile-view { display: block; }
   .prm0 { padding-right: 0; }
+
+  .title {
+    font-size: 18px;
+    line-height: 1.33;
+  }
 }
 @media (min-width: 768px) {
   .plw0 { padding-left: 0; }

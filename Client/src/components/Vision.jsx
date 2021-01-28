@@ -5,15 +5,19 @@ import quote from "../resources/images/quote.png";
 
 const Vision = () => {
     return (
-        <div className="vision-section col-12 prm0 wow fadeInUp" data-wow-delay=".5s">
-            <div className="row">
+        <div className="vision-section wow fadeInUp" data-wow-delay=".5s">
+            <div className="row g-0">
                 <div className="col-md-6 col-sm-12 left-container">
                     <div className="title">
                         A message from CEO
 	                    </div>
-                    <img src={ceo} className="ceo" />
-                    <div className="clearfix"></div>
-                    <div className="quote">
+                        <div className="row">
+                        <div className="col-md-12 col-sm-4">
+                        <img src={ceo} className="ceo" />
+                        {/* <div className="clearfix"></div> */}
+                        </div>
+                        <div className="col-md-12 col-sm-4">
+                        <div className="quote">
                         <img src={quote} />
                     </div>
                     <div className="description">
@@ -28,6 +32,8 @@ const Vision = () => {
                         <div className="col-md-6 col-sm-12 text-align-right meet-our-team">
                             <Link to="/team">Meet our team</Link>
                         </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
                 <div className="col-md-6 col-sm-12 right-container">

@@ -167,9 +167,9 @@
   text-align: left;
 
   .ceo {
-    @include sections-spacing(10px);
-    width: 150px;
-    height: 150px;
+    @include sections-spacing(20px);
+    width: 149px;
+    height: 146px;
   }
 
   .quote {
@@ -234,7 +234,72 @@
 
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
+    font-size: 13px;
 
+    .ceo {
+      @include sections-spacing(10px);
+      border-radius: 12px;
+      width: 150px;
+      height: 150px;
+    }
+  
+    .quote {
+      @include sections-spacing(28px);
+  
+      img {
+        width: 17.1px;
+        height: 14.7px;
+      }
+    }
+  
+    .description {
+      @include sections-spacing(10px);
+      span {
+        display: block;
+        line-height: 1.63;
+      }
+    }
+  
+    .signature {
+      @include sections-spacing(20px);
+      padding-left: 0px;
+  
+      .meet-our-team {
+        padding-top: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        a {
+          color: #87f2e7;
+          text-decoration: underline;
+        }
+      }
+    }
+  
+    .title {
+      color: $white-color;
+      font-size: 18px;
+
+    }
+  
+    .left-container {
+      padding: 45px;
+      background-color: #22265d;
+    }
+  
+    .right-container {
+      padding: 45px;
+      background-color: #0b0e36;
+    }
+  
+    p {
+      @include fontsize(13px);
+      @include sections-spacing(16px);
+      line-height: 1.54;
+      color: #ffffff;
+    }
    
   }
   @media (min-width: 768px) {
@@ -252,6 +317,8 @@
     }
   }
 }
+
+// tekenomics section start
 
 .tokenomics-governance-section {
   @include sections-spacing(40px);
@@ -299,6 +366,11 @@
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
     padding: 0 0 0 30px;
+
+    .description {
+      @include sections-spacing(20px);
+      font-size: 13px;
+    }
 
     .tokenomics-image {
       img {

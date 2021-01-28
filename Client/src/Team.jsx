@@ -15,6 +15,7 @@ import FaisalKhan from "./resources/images/leadershipteam/Faisal Khan7.jfif";
 import RobertSalmon from "./resources/images/advisors/Robert Salmon.jfif";
 import ErikVanRompay from "./resources/images/advisors/Erik Van Rompay.jfif";
 import Carlos from "./resources/images/advisors/Carlos.jpeg";
+import Marco from "./resources/images/advisors/Marco.jpeg";
 import HeatherSwope from "./resources/images/rockstars/Heather Swope1.jfif";
 import BehzadPournouri from "./resources/images/rockstars/Behzad Pournouri.jfif";
 import ElisabettaGiglio from "./resources/images/rockstars/Elisabetta Giglio.jfif";
@@ -50,6 +51,13 @@ const advisors = [
         userName: "Carlos Gomez",
         designation: "Blockchain Advisor",
         linkedin: "https://www.linkedin.com",
+        twitter: "https://twitter.com/",
+    },
+    {
+        userImg: Marco,
+        userName: "Marco Antonio Serrano",
+        designation: "Advisor",
+        linkedin: "https://www.linkedin.com/in/marco-antonio-serrano-saavedra",
         twitter: "https://twitter.com/",
     },
 ]

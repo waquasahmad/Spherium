@@ -9,6 +9,7 @@
 @import './spherecomp';
 @import './spherecompwallet';
 @import './document';
+@import './termandpolicy';
 
 @import "utilities/variables";
 
@@ -285,12 +286,12 @@
     }
   
     .left-container {
-      padding: 45px;
+      padding: 30px;
       background-color: #22265d;
     }
   
     .right-container {
-      padding: 45px;
+      padding: 30px;
       background-color: #0b0e36;
     }
   

@@ -23,6 +23,7 @@ import SphereComp from './SphereComp';
 import SphereCompWallet from './SphereCompWallet';
 import Document from './Document';
 import AOS from "aos";
+import TermsAndPolicy from './TermsAndPolicy';
 
 const App = () => {
 
@@ -42,6 +43,7 @@ const App = () => {
         <Route exact path="/spherecompwallet" component={SphereCompWallet} />
         <Route exact path="/team" component={Team} />
         <Route exact path="/document" component={Document} />
+        <Route exact path="/termandpolicy" component={TermsAndPolicy} />
         <Route exact path="/contactus" component={ContactUS} />
         <Redirect to="/" />
       </Switch>

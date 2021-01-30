@@ -13,7 +13,7 @@ export default function ValidateInfo(user) {
 
     if (!user.phone_number) {
       errors.phone_number = 'Phone number is required';
-    } else if (!/^[0-9]{1,}$/.test(user.phone_number)) {
+    } else if (!/^[0-9+]{1,}$/.test(user.phone_number)) {
       errors.phone_number = 'Please enter vailid mobile number';
     }
 

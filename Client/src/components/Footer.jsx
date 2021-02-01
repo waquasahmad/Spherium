@@ -68,6 +68,7 @@ const Footer = () => {
                         <div className="footer-title">
                             <Link to="/contactus" style={{ textDecoration: 'none', color: 'white', marginLeft:"42px"}}>Contact us</Link>
                         </div>
+                        <div className="footer-title web-view" style={{ marginLeft:"42px", marginTop: "20px"}}>Legal</div>
                         <div className="footer-sub-title web-view">
                         <a style={{ textDecoration: 'none', color: 'white', marginLeft:"42px" }} href="/termandpolicy#service">Terms of Use</a>
                         </div>

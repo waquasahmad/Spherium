@@ -22,11 +22,11 @@ export const TermsOfService = () => {
                        <p className="subtittle">3. Representations and Warranties</p>
                        <p className="description">Prior to your use of the Service and on an ongoing basis you represent, warrant, covenant and agree that<br/><br/>
                        ●	you are (i) aged 18 or over, (ii) you are of the age of majority in your jurisdiction, (iii) you are accessing the Service from a jurisdiction in which it is legal to do so, (iv) you are not a Politically Exposed Person (PEP) nor are you on any U.S. or EU Sanctions lists or terrorism finance watchlists, and (v) that you will inform us immediately if you enter onto one of these lists or change your residence to a prohibited jurisdiction;<br/><br/>
-                       ●	your use of the Service is at your sole option, discretion and risk;
+                       ●	your use of the Service is at your sole option, discretion and risk;<br/><br/>
                        ●	you realize that cryptocurrency values can fluctuate greatly in value depending on market conditions and that you shall hold Spherium harmless for any loss or damages arising from such volatility;<br/><br/>
                        ●	you are solely responsible for any applicable taxes which may be payable on cryptocurrency traded or transacted by you through your using the Service;<br/><br/>
                        ●	the telecommunications networks, blockchain networks (such as Polkadot and Ethereum) and Internet access services required for you to access and use the Service are entirely beyond the control of Spherium and we shall have no liability whatsoever for any outages, slowness, capacity constraints or other deficiencies affecting the same;<br/><br/> 
-                       ●	should you discover a bug or error that may lead to an exploit of the Service or other loss of funds, you shall notify us in a timely manner. Furthermore, any attempt by you to use such a discovered exploit or bug for illicit financial gain is illegal and strictly prohibited under this Agreement;
+                       ●	should you discover a bug or error that may lead to an exploit of the Service or other loss of funds, you shall notify us in a timely manner. Furthermore, any attempt by you to use such a discovered exploit or bug for illicit financial gain is illegal and strictly prohibited under this Agreement;<br/><br/>
                        ●	Spherium reserves the right to prosecute to the fullest extent of the law anyone who exploits or attempts to exploit the Service in an unlawful manner.
                       </p>
                       <p className="subtittle">4. Proper Use</p>

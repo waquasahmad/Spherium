@@ -596,7 +596,7 @@
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
  //   margin: 41px 0 0;
-    padding: 25px 0px 38.8px 20px;
+    padding: 25px 0px 38.8px 10px;
   //  background-color: #22265d;
 
     .line{
@@ -621,7 +621,7 @@
       @include sections-spacing(12px);
       font-size: 13px;
       font-weight: 500;
-      line-height: 2.46;
+      line-height: 1.25;
       text-align: left;
       color: $white-color;
     }

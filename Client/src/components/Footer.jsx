@@ -86,11 +86,8 @@ const Footer = () => {
                         <div className="footer-sub-title">
                             <Link to="/spherecompwallet" style={{ textDecoration: 'none', color: 'white' }}>Spherium Wallet</Link>
                         </div>
-                        <div className="footer-sub-title">
-                        <a style={{ textDecoration: 'none', color: 'white' }} href="/termandpolicy#service">Terms of Use</a>
-                        </div>
                     </div>
-                    <div className="col-4 mobile-view">
+                    <div className="col-2 mobile-view">
                         <div className="footer-title">Documents</div>
                         <div className="footer-sub-title">
                         <a style={{ textDecoration: 'none', color: 'white' }} href="/document#item-1">Whitepaper</a>
@@ -105,8 +102,15 @@ const Footer = () => {
                             {/*<Link to="/document" style={{ textDecoration: 'none', color: 'white' }}>Governance</Link>*/}
                         </div>
                         {/*<div className="footer-sub-title">Blog and news</div>*/}
+                        
+                    </div>
+                    <div className="col-5 mobile-view">
+                        <div className="footer-title" style={{ marginLeft:"42px" }}>Legal</div>
                         <div className="footer-sub-title">
-                        <a style={{ textDecoration: 'none', color: 'white'}} href="/termandpolicy#policy">Privacy Policy</a>
+                        <a style={{ textDecoration: 'none', color: 'white', marginLeft:"40px" }} href="/termandpolicy#service">Terms of Use</a>
+                        </div>
+                        <div className="footer-sub-title">
+                        <a style={{ textDecoration: 'none', color: 'white', marginLeft:"41px"}} href="/termandpolicy#policy">Privacy Policy</a>
                         </div>
                     </div>
                     

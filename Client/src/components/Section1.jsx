@@ -21,7 +21,7 @@ const Section1 = () => {
                                 <Link className="btn white-paper" to="/document">Whitepaper</Link>
                             </div>
                         </div>
-                        <div className="col-md-6 col-sm-12 text-align-right globe-section animate__animated animate__slideInDown">
+                        <div className="col-md-6 col-sm-12 text-align-right globe-section" data-aos="fade-left">
                             <img src={globe} className="geography" />
                             {/* <img src={halfglobe} className="halfglobe mobile-view" /> */}
                         </div>

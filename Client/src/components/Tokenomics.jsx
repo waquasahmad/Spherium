@@ -1,7 +1,7 @@
 import React from 'react'
-import tokenomics from "../resources/images/tokenomics.svg";
+//import tokenomics from "../resources/images/tokenomics.svg";
 import { Link } from 'react-router-dom';
-//import tokenomics from "../resources/images/token_update.png";
+import tokenomics from "../resources/images/tokenomics.jpeg";
 
 const Tokenomics = () => {
     return (

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4ff10631.chunk.css",
-    "main.js": "/static/js/main.e1fc29f1.chunk.js",
-    "main.js.map": "/static/js/main.e1fc29f1.chunk.js.map",
+    "main.js": "/static/js/main.c6c9597c.chunk.js",
+    "main.js.map": "/static/js/main.c6c9597c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09aeb2ac.js",
     "runtime-main.js.map": "/static/js/runtime-main.09aeb2ac.js.map",
     "static/css/2.6d8fa2e2.chunk.css": "/static/css/2.6d8fa2e2.chunk.css",
@@ -94,7 +94,7 @@
     "static/media/spheriumheatherpitch.b4506d68.mp4": "/static/media/spheriumheatherpitch.b4506d68.mp4",
     "static/media/spheriumwallet@3x.5920e132.png": "/static/media/spheriumwallet@3x.5920e132.png",
     "static/media/three.95084dc3.svg": "/static/media/three.95084dc3.svg",
-    "static/media/tokenomics.f639e570.svg": "/static/media/tokenomics.f639e570.svg",
+    "static/media/tokenomics.6520a587.jpeg": "/static/media/tokenomics.6520a587.jpeg",
     "static/media/two.548c131b.svg": "/static/media/two.548c131b.svg",
     "static/media/vline.465980d0.svg": "/static/media/vline.465980d0.svg",
     "static/media/walletcomponent.1a4c7826.png": "/static/media/walletcomponent.1a4c7826.png",
@@ -113,6 +113,6 @@
     "static/css/2.6d8fa2e2.chunk.css",
     "static/js/2.fce85f27.chunk.js",
     "static/css/main.4ff10631.chunk.css",
-    "static/js/main.e1fc29f1.chunk.js"
+    "static/js/main.c6c9597c.chunk.js"
   ]
 }

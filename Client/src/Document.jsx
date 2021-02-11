@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-//import tokenomics from "./resources/images/tokenomics.svg";
-import tokenomics from "./resources/images/tokenomics.jpeg";
+import tokenomics from "./resources/images/tokenomics.svg";
+//import tokenomics from "./resources/images/tokenomics.jpeg";
 import filePath from "./resources/assets/whitepaper.pdf";
 
 const Document = () => {

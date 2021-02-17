@@ -25,7 +25,7 @@ const Section2 = () => {
 	    	            </div>
 					</div>
 					<div className="col-md-7 col-sm-12 video-section">
-						<video controls autoplay="autoplay" width="100%" height="289" muted="muted" loop="loop">
+						<video controls autoPlay="autoplay" width="100%" height="289" muted="muted" loop="loop">
 							<source src={video} type="video/mp4" />
 						</video>
 					</div>

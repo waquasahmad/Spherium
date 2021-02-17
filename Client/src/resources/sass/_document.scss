@@ -1,42 +1,43 @@
 @import "utilities/variables";
 
-
-.document-section{
-    
-    @include sections-spacing(5px);
-    .leftside{
-        height: 100;
-        background-color: #f7f7f7;
-    .navbar{
-   // height: 100%;
-   position: fixed;
-   padding: 40px 30px;
-        
-            a {
-                color: rgba(15, 15, 15, 0.71);
-                padding-left: 0px;
-                &:hover{
-                    color: #2e37f2;
-                }
-                .active {
-                    font-weight: 600;
-                 }
-              }
-        
-    
-   }
-
+.document-section {
+  @include sections-spacing(70px);
+  .leftside {
+    height: 100;
+    background-color: #f7f7f7;
+    .nav {
+      // background-color: var(--off-white);
+      //  // position: sticky;
+      //   top: 0px;
+      //   width: 100%;
+      //   height: 80px;
+      //   z-index: 1000;
+      position: fixed;
+      margin: 40px 0px 0 0;
+    }
+    .nav-item {
+      // display: inline;
+      list-style-type: none;
+      margin-top: 1rem;
+      color: #333;
+      .active {
+        text-decoration: none;
+      }
     }
 
-    .right-side{
+    .nav-item:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
 
-   padding-left: 60px;
-  // position: relative;
-.whitepaper{
-    @include sections-spacing(42px);
-    width: 850px;
-    .btn{
-        @include sections-spacing(30px);
+  .right-side {
+    padding-left: 60px;
+    // position: relative;
+    .whitepaper {
+      @include sections-spacing(50px);
+      width: 850px;
+      .btn {
         width: 203px;
         height: 48px;
         background-color: #2e37f2;
@@ -50,88 +51,83 @@
         color: #ffffff;
         border-radius: 8px;
       }
-}
+    }
 
-.tokenomics{
-   @include sections-spacing(100px); 
-    .tokenomics{
+    .tokenomics {
+      @include sections-spacing(100px);
+      .tokenomics {
         @include sections-spacing(5px);
         width: 842px;
         height: 295px;
         object-fit: contain;
+      }
     }
-}
 
-.governance{
-    @include sections-spacing(10px); 
-}
+    .governance {
+      @include sections-spacing(10px);
+    }
 
-.title{
-    font-size: 22px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.55;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000348;
-}
-.description{
-    @include sections-spacing(14px);
-    width: 850px;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: rgba(57, 57, 57, 0.8);
-}
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.55;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000348;
+    }
+    .description {
+      @include sections-spacing(14px);
+      width: 850px;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: rgba(57, 57, 57, 0.8);
+    }
+  }
 
-}
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+    .right-side {
+      padding-left: 30px;
+      .whitepaper {
+        @include sections-spacing(15px);
+        .btn {
+          @include sections-spacing(5px);
+          float: left;
+        }
+      }
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 767px) {
-    
-    .right-side{
-        padding-left: 30px;
-     .whitepaper{
-         @include sections-spacing(15px);
-         .btn{
-            @include sections-spacing(5px);
-            float: left;
-           }
-     }
-     
-     .tokenomics{
-         @include sections-spacing(90px); 
-         .tokenomics{
-            @include sections-spacing(0px); 
-            width: 323px;
-            height: 313px;
-            object-fit: contain;
-         }
-     }
-     
-     .governance{
-         @include sections-spacing(20px); 
-     }
-     
-     .title{
-         font-size: 18px;
-         line-height: 1.5;
-     }
-     .description{
-         @include sections-spacing(15px);
-         width: 354px;
-         font-size: 14px;
-         line-height: 1.57;
-         color: rgba(0, 0, 0, 0.8);
-     }
-     
-     }
+      .tokenomics {
+        @include sections-spacing(90px);
+        .tokenomics {
+          @include sections-spacing(0px);
+          width: 323px;
+          height: 313px;
+          object-fit: contain;
+        }
+      }
 
-}
+      .governance {
+        @include sections-spacing(20px);
+      }
 
+      .title {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .description {
+        @include sections-spacing(15px);
+        width: 354px;
+        font-size: 14px;
+        line-height: 1.57;
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
 }

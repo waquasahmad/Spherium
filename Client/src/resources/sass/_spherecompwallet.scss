@@ -6,6 +6,7 @@
     background-color: $blue-color;
     color: $white-color;
     min-height: 535px;
+    @include sections-spacing(70px);
     .spherecompwallet{
         .headingicon{
             @include sections-spacing(68px);

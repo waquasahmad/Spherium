@@ -83,20 +83,17 @@ const Products = () => {
                         products.map((product) => {
                             return (
                                 <div className="col-md-4 col-sm-12 prm0">
-                                    {/* <Link to="{id}" style={{ textDecoration: 'none'}}> */}
                                         <div className="product-sub-section" onClick={() => { pageredirect(product.id) }}>
-                                            <img src={product.productImg} className="product-icon" />
+                                            <img src={product.productImg} className="product-icon" alt="products"/>
                                             <p>
-                                                <img src={right_arrow} className="right_arrow" />
-                                                <img src={right_arrow_blue} className="right_arrow" />
-
+                                                <img src={right_arrow} className="right_arrow" alt="arrow1"/>
+                                                <img src={right_arrow_blue} className="right_arrow" alt="arrow2"/>
                                             </p>
                                             <div className="title"> {product.productTittle} </div>
                                             <span className="details">
                                                 {product.productDetails}
                                             </span>
                                         </div>
-                                    {/* </Link> */}
                                 </div>
                             );
                         })

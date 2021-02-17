@@ -5,6 +5,7 @@
 .team-section-1-container{
     background-color: $blue-color;
     color: $white-color;
+    @include sections-spacing(70px);
     .title{
         @include sections-spacing(52px);
         font-size: 24px;

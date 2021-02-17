@@ -1,111 +1,100 @@
 @import "utilities/variables";
 
+.policy-section {
+  @include sections-spacing(70px);
+  .leftside {
+    height: 100;
+    background-color: #f7f7f7;
+    .navbar {
+      // height: 100%;
+      position: fixed;
+      padding: 40px 30px;
 
-.policy-section{
-    
-    @include sections-spacing(5px);
-    .leftside{
-        height: 100;
-        background-color: #f7f7f7;
-    .navbar{
-   // height: 100%;
-   position: fixed;
-   padding: 40px 30px;
-        
-            a {
-                color: rgba(15, 15, 15, 0.71);
-                padding-left: 0px;
-                &:hover{
-                    color: #2e37f2;
-                }
-                .active {
-                    font-weight: 600;
-                 }
-              }
-        
-    
-   }
+      a {
+        color: rgba(15, 15, 15, 0.71);
+        padding-left: 0px;
+        &:hover {
+          color: #2e37f2;
+        }
+        .active {
+          font-weight: 600;
+        }
+      }
+    }
+  }
 
+  .right-side {
+    padding-left: 60px;
+    // position: relative;
+    .termandservice {
+      @include sections-spacing(42px);
+      width: 850px;
     }
 
-    .right-side{
+    .policy {
+      @include sections-spacing(100px);
+    }
 
-   padding-left: 60px;
-  // position: relative;
-.termandservice{
-    @include sections-spacing(42px);
-    width: 850px;
-    
-}
+    .title {
+      font-size: 29px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.55;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000348;
+    }
+    .description {
+      @include sections-spacing(14px);
+      width: 850px;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: rgba(57, 57, 57, 0.8);
+    }
+    .subtittle {
+      @include sections-spacing(14px);
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.55;
+      letter-spacing: normal;
+      text-align: left;
+      color: #000348;
+    }
+  }
 
-.policy{
-   @include sections-spacing(100px); 
-}
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 767px) {
+    .right-side {
+      padding-left: 30px;
+      .termandservice {
+        @include sections-spacing(15px);
+      }
 
-.title{
-    font-size: 29px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.55;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000348;
-}
-.description{
-    @include sections-spacing(14px);
-    width: 850px;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: rgba(57, 57, 57, 0.8);
-}
-.subtittle{
-    @include sections-spacing(14px);
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.55;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000348;
+      .policy {
+        @include sections-spacing(15px);
+      }
 
-}
-
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 767px) {
-    
-    .right-side{
-        padding-left: 30px;
-     .termandservice{
-         @include sections-spacing(15px);
-         
-     }
-     
-     .policy{
-         @include sections-spacing(15px); 
-     }
-     
-     .title{
-         font-size: 18px;
-         line-height: 1.5;
-         text-align: left;
-     }
-     .description{
-         @include sections-spacing(15px);
-         width: 354px;
-         font-size: 14px;
-         line-height: 1.57;
-         color: rgba(0, 0, 0, 0.8);
-     }
-     .subtittle{
+      .title {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: left;
+      }
+      .description {
+        @include sections-spacing(15px);
+        width: 354px;
+        font-size: 14px;
+        line-height: 1.57;
+        color: rgba(0, 0, 0, 0.8);
+      }
+      .subtittle {
         @include sections-spacing(14px);
         font-size: 16px;
         font-weight: bold;
@@ -115,11 +104,7 @@
         letter-spacing: normal;
         text-align: left;
         color: #000348;
-    
+      }
     }
-     
-     }
-
-}
-
+  }
 }

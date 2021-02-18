@@ -91,6 +91,13 @@ const leaderships = [
 
 const rockstarts = [
   {
+    userImg: SaifAkhtar,
+    userName: "Saif Akhtar",
+    designation: "Chief Product officer (CPO)",
+    linkedin: "https://www.linkedin.com/in/saifakhtar",
+    twitter: "https://twitter.com/",
+  },
+  {
     userImg: KeirFinlowBates,
     userName: "Keir Finlow Bates",
     designation: "Ph.D – CTO",
@@ -119,26 +126,19 @@ const rockstarts = [
     twitter: "https://twitter.com/",
   },
   {
-    userImg: SaifAkhtar,
-    userName: "Saif Akhtar",
-    designation: "Chief Product officer (CPO)",
-    linkedin: "https://www.linkedin.com/in/saifakhtar",
-    twitter: "https://twitter.com/",
-  },
-  {
     userImg: FaisalKhan,
     userName: "Faisal Khan",
     designation: "Head of PR",
     linkedin: "https://www.linkedin.com/in/faisal-khan-2a3009b",
     twitter: "https://twitter.com/",
   },
-  {
-    userImg: HeatherSwope,
-    userName: "Heather Swope",
-    designation: "Senior Developer",
-    linkedin: "https://www.linkedin.com/in/heatherswope",
-    twitter: "https://twitter.com/",
-  },
+//   {
+//     userImg: HeatherSwope,
+//     userName: "Heather Swope",
+//     designation: "Senior Developer",
+//     linkedin: "https://www.linkedin.com/in/heatherswope",
+//     twitter: "https://twitter.com/",
+//   },
   {
     userImg: BehzadPournouri,
     userName: "Behzad Pournouri",

@@ -1,21 +1,27 @@
 @import "utilities/variables";
 
+.navbar{
+  background-color: #ffff;
+}
 .dropdown-menu {
-  background-color: #f8f9fa !important;
+  background-color: #ffff !important;
   margin-top: 23px;
 }
 .dropdown-item {
-  background-color: #f8f9fa !important;
+  background-color: #ffff !important;
 }
 .nav-item {
   margin: 0 37px;
-
   .active {
     font-weight: 600;
     color: #2e37f2 !important ;
     text-decoration: none;
   }
+  a{
+  color: rgba(15, 15, 15, 0.71) !important;
 }
+}
+
 
 .messageIcon {
   @include sections-spacing(10px);

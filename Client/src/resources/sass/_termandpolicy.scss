@@ -5,21 +5,22 @@
   .leftside {
     height: 100;
     background-color: #f7f7f7;
-    .navbar {
-      // height: 100%;
+    .nav {
       position: fixed;
-      padding: 40px 30px;
-
-      a {
-        color: rgba(15, 15, 15, 0.71);
-        padding-left: 0px;
-        &:hover {
-          color: #2e37f2;
-        }
-        .active {
-          font-weight: 600;
-        }
+      margin: 40px 0px 0 0;
+    }
+    .nav-item {
+      list-style-type: none;
+      margin-top: 1rem;
+      color: #333;
+      .active {
+        text-decoration: none;
       }
+    }
+
+    .nav-item:hover {
+      color: black;
+      cursor: pointer;
     }
   }
 

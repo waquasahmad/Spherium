@@ -65,7 +65,7 @@ const Header = () => {
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <NavLink
-                    className="nav-link dropdown-item"
+                    className="dropdown-item"
                     to="/hyperswap"
                     activeClassName="active"
                   >
@@ -73,7 +73,7 @@ const Header = () => {
                   </NavLink>
                   <div className="dropdown-divider"></div>
                   <NavLink
-                    className="nav-link dropdown-item"
+                    className="dropdown-item"
                     to="/spherecomp"
                     activeClassName="active"
                   >
@@ -81,8 +81,8 @@ const Header = () => {
                   </NavLink>
                   <div className="dropdown-divider"></div>
                   <NavLink
-                    className="nav-link dropdown-item"
-                    to="/spherecompwallet"
+                    className="dropdown-item"
+                    to="/spheriumwallet"
                     activeClassName="active"
                   >
                     Spherium Wallet
@@ -113,7 +113,7 @@ const Header = () => {
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a
                     className="dropdown-item"
-                    href="/document#section1"
+                    href="/document#whitepaper"
                     activeClassName="active"
                   >
                     Whitepaper
@@ -121,7 +121,7 @@ const Header = () => {
                   <div className="dropdown-divider"></div>
                   <a
                     className="dropdown-item"
-                    href="/document#section2"
+                    href="/document#tokenomics"
                     activeClassName="active"
                   >
                     Tokenomics
@@ -129,7 +129,7 @@ const Header = () => {
                   <div className="dropdown-divider"></div>
                   <a
                     className="dropdown-item"
-                    href="/document#section3"
+                    href="/document#governance"
                     activeClass="active"
                   >
                     Governance

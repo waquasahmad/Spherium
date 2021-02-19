@@ -13,37 +13,15 @@ const Document = () => {
       </div>
 
       <div className="col-md-10 col-12 right-side">
-        <div className="whitepaper col-12" id="section1">
+        <div className="whitepaper col-12" id="whitepaper">
           <span className="title">Whitepaper</span>
           <p className="description">
             This is our first version of the White Paper, we are also working on
             defining our further capabilities like enabling cross chain using
-            solutions such as RenVM and optimizing on Ethereum Layer 2. Download
-            white paper here.
+            solutions such as RenVM and optimizing on Ethereum Layer 2.
+            <br />
+            <br /> Download Whitepaper here.
           </p>
-          <br />
-          {/*<p className="description">The world has come a long way since Satoshi Nakamoto introduced Bitcoin in his whitepaper on Oct.
-                        31st, 2008. Today the ecosystem talks about a lot more possibilities and innovations that can be
-                        done with cryptocurrencies and its underlying technology, the blockchain. Since the advent of the
-                        smart contract powered ethereum blockchain, the door for decentralised apps or dApps have
-                        opened possibilities and ignited the innovative fuels of a socially concerned techie, giving rise to
-                        financial solutions that bring the products of the regular banking system on the blockchain
-                        ecosystem, and thereby breaking the barriers that kept the unbanked community behind it. The
-                        crypto community started getting their hands dirty into the development of various financial
-                        applications/solutions and hence the ecosystem started buzzing with the word DeFi (Decentralized
-                        Finance).<br />
-                        DeFi is an ecosystem of financial applications built on top of blockchain networks, aiming to create
-                        an open-source, permissionless, and transparent financial services that are available to its
-                        participants and operates without any central authority. DeFi enables users to interact with this
-                        ecosystem and manage their assets on their own through peer-to-peer (P2P) and decentralized
-                        applications (dApps). Like the traditional financial system, DeFi constitutes several
-                        components/products that include but not limited to the following:<br /><br />
-                        ● Lending and borrowing platform<br />
-                        ● Trading platform or exchange<br />
-                        ● Derivative or synthetic assets<br />
-                        ● Insurance platform<br />
-                        ● Prediction markets<br />
-                        ● Alternative savings/investment platform </p>*/}
           <Link
             to="route"
             onClick={(event) => {
@@ -54,7 +32,7 @@ const Document = () => {
             <button className="btn floatright">Download whitepaper</button>
           </Link>
         </div>
-        <div className="tokenomics col-12" id="section2">
+        <div className="tokenomics col-12" id="tokenomics">
           <span className="title">Tokenomics</span>
           <p className="description">
             The process of the Spherium token allocation will be based on a
@@ -73,10 +51,8 @@ const Document = () => {
           </p>
           <img src={tokenomics} alt="gov" className="tokenomics" />
         </div>
-        <div className="governance col-12" id="section3">
-          <span className="title">
-            Governance
-          </span>
+        <div className="governance col-12" id="governance">
+          <span className="title">Governance</span>
           <p className="description">
             Spherium's ultimate goal is to operate via a decentralized
             governance model for which Spherium will build a community of

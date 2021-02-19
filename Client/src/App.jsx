@@ -40,7 +40,7 @@ const App = () => {
         <Route exact path="/home" component={Home} />
         <Route exact path="/hyperswap" component={Hyperswap} />
         <Route exact path="/spherecomp" component={SphereComp} />
-        <Route exact path="/spherecompwallet" component={SphereCompWallet} />
+        <Route exact path="/spheriumwallet" component={SphereCompWallet} />
         <Route exact path="/team" component={Team} />
         <Route exact path="/document" component={Document} />
         <Route exact path="/termandpolicy" component={TermsAndPolicy} />
@@ -49,7 +49,7 @@ const App = () => {
       </Switch>
       <Footer />
     </>
-  )
+  );
 }
 
 export default App

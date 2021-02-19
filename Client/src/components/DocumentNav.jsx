@@ -11,7 +11,7 @@ const DocumentNav = () => {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section1"
+                to="whitepaper"
                 spy={true}
                 smooth={true}
                 offset={-120}
@@ -23,7 +23,7 @@ const DocumentNav = () => {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section2"
+                to="tokenomics"
                 spy={true}
                 smooth={true}
                 offset={-120}
@@ -35,7 +35,7 @@ const DocumentNav = () => {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section3"
+                to="governance"
                 spy={true}
                 smooth={true}
                 offset={-125}

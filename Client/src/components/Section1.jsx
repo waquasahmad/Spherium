@@ -9,7 +9,7 @@ const Section1 = () => {
         <div className="home-details-section">
           <div className="container">
             <div className="row col-12">
-              <div className="col-md-6 col-sm-12" data-aos="fade-right">
+              <div className="col-md-6 col-sm-12" data-aos="fade-up">
                 <div className="headings">
                   <p>
                     A decentralised and borderless financial system that gives
@@ -34,7 +34,7 @@ const Section1 = () => {
               </div>
               <div
                 className="col-md-6 col-sm-12 text-align-right globe-section"
-                data-aos="fade-left"
+                data-aos="fade-up"
               >
                 <img src={globe} className="geography" alt="globe" />
                 {/* <img src={halfglobe} className="halfglobe mobile-view" /> */}

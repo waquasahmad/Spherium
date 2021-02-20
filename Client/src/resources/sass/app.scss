@@ -1,15 +1,14 @@
 @use 'base';
 @use 'nav';
 
-
 @use 'section1';
 @use 'section2';
-@import './hyperswap_section3';
-@import './team';
-@import './spherecomp';
-@import './spherecompwallet';
-@import './document';
-@import './termandpolicy';
+@import "./hyperswap_section3";
+@import "./team";
+@import "./spherecomp";
+@import "./spherecompwallet";
+@import "./document";
+@import "./termandpolicy";
 
 @import "utilities/variables";
 
@@ -27,21 +26,20 @@
 
 //Product section starts
 .product-section {
-	.product-sub-section {
+  .product-sub-section {
     @include sections-spacing(20px);
-		@include app-border();
+    @include app-border();
     padding: 17px 28px 28px 24px;
     cursor: pointer;
-    &:hover{
-      background-image: linear-gradient(to right, #28d2cf , #1071e3);
+    &:hover {
+      background-image: linear-gradient(to right, #28d2cf, #1071e3);
     }
-		.title {
-			@include fontsize(18px);
-			margin-top: 8px;
-			font-weight: 900;
+    .title {
+      @include fontsize(18px);
+      margin-top: 8px;
+      font-weight: 900;
     }
-    .details{
-
+    .details {
       font-size: 16px;
       font-weight: normal;
       font-stretch: normal;
@@ -50,28 +48,32 @@
       letter-spacing: normal;
       text-align: left;
       color: rgba(0, 0, 0, 0.8);
-
     }
 
-		.right-arrow { float: right; }
-		span { margin-top: 8px; display: block; }
+    .right-arrow {
+      float: right;
+    }
+    span {
+      margin-top: 8px;
+      display: block;
+    }
 
     p img:last-child {
-      display: none;  
+      display: none;
     }
 
-		&:hover { 
-      border: solid 1px $border-hover-color; 
+    &:hover {
+      border: solid 1px $border-hover-color;
 
       p {
         img:last-child {
-          display: block;  
+          display: block;
         }
       }
 
       p {
-          img:first-child {
-          display: none;  
+        img:first-child {
+          display: none;
         }
       }
     }
@@ -80,7 +82,7 @@
       float: right;
       margin: 22px 0 0 0;
     }
-	}
+  }
 
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
@@ -96,30 +98,25 @@
         margin-top: 8px;
         font-weight: 900;
       }
-      .details{
-        
+      .details {
         font-size: 13px;
         line-height: 1.33;
-        
       }
     }
-
   }
   @media (min-width: 768px) {
     @include sections-spacing(40px);
 
     .product-sub-section {
       min-width: 100%;
-    //  min-height: 264px;
-
+      //  min-height: 264px;
     }
   }
 }
 
-
 //Product Road Map Starts
 .product-icon {
-	@include width-height(52, 51);
+  @include width-height(52, 51);
 }
 
 .product-road-section {
@@ -195,7 +192,7 @@
     padding-left: 0px;
 
     .meet-our-team {
-      padding-top: 12px;
+      padding-top: 29px;
       font-weight: 600;
       font-stretch: normal;
       font-style: normal;
@@ -213,24 +210,25 @@
   }
 
   .left-container {
-    padding: 45px;
+    padding: 40px 20px 0 45px;
     background-color: #22265d;
   }
 
   .right-container {
-    padding: 45px;
+    padding: 40px 40px 10px 45px;
     background-color: #0b0e36;
   }
 
   p {
-    @include fontsize(16px);
+    @include sections-spacing(10px);
+    @include fontsize(15px);
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.63;
     letter-spacing: normal;
     text-align: left;
-    color: $white-color;
+    color: #ffffff;
   }
 
   // Small devices (landscape phones, 576px and up)
@@ -238,39 +236,43 @@
     font-size: 13px;
 
     .ceo {
-      @include sections-spacing(10px);
+      @include sections-spacing(16px);
       border-radius: 12px;
-      width: 150px;
-      height: 150px;
+      width: 121px;
+      height: 180px;
     }
-  
+
     .quote {
-      @include sections-spacing(28px);
-  
+      @include sections-spacing(12px);
+      margin-left: 8px;
+
       img {
         width: 17.1px;
         height: 14.7px;
       }
     }
-  
+
     .description {
       @include sections-spacing(10px);
+      margin-left: 8px;
       span {
         display: block;
-        line-height: 1.63;
+        line-height: 1.38;
       }
     }
-  
+
     .signature {
-      @include sections-spacing(20px);
+      @include sections-spacing(8.8px);
       padding-left: 0px;
-  
+      margin-left: -5px;
+
       .meet-our-team {
         padding-top: 12px;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
         line-height: 1.25;
+        text-align: left;
         letter-spacing: normal;
         a {
           color: #87f2e7;
@@ -278,30 +280,25 @@
         }
       }
     }
-  
+
     .title {
       color: $white-color;
       font-size: 18px;
-
+      @include sections-spacing(20px);
     }
-  
+
     .left-container {
-      padding: 30px;
+      padding: 0px 15px 10px 30px;
       background-color: #22265d;
     }
-  
-    .right-container {
-      padding: 30px;
-      background-color: #0b0e36;
-    }
-  
+
     p {
       @include fontsize(13px);
       @include sections-spacing(16px);
+      margin-right: 5px;
       line-height: 1.54;
       color: #ffffff;
     }
-   
   }
   @media (min-width: 768px) {
     border-radius: 12px;
@@ -375,13 +372,13 @@
 
     .tokenomics-image {
       img {
-        height: 120px;
+        //  height: 200px;
         width: 100%;
       }
     }
     .governance-image {
       img {
-        height: 200.8px;
+        //  height: 200.8px;
         width: 100%;
       }
     }
@@ -403,23 +400,23 @@
 }
 
 .partners {
+  @include sections-spacing(30px);
+
+  div.partners-section {
     @include sections-spacing(30px);
 
-    div.partners-section {
-      @include sections-spacing(30px);
+    div.partners-inner-section {
+      border-radius: 12px;
+      border: solid 1px $border-color;
+      margin-bottom: 20px;
 
-      div.partners-inner-section {
-        border-radius: 12px;
-        border: solid 1px $border-color;
-        margin-bottom: 20px;
-
-        img {
-          width: 82.1px;
-          height: 78.2px;
-          padding: 0 0 0.4px 0.1px;
-        }
+      img {
+        width: 82.1px;
+        height: 78.2px;
+        padding: 0 0 0.4px 0.1px;
       }
     }
+  }
 
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
@@ -430,7 +427,7 @@
   }
   @media (min-width: 768px) {
     .partners-inner-section {
-   //   padding: 39.9px 38.7px 41.9px 39.2px;
+      //   padding: 39.9px 38.7px 41.9px 39.2px;
     }
   }
 }
@@ -450,7 +447,7 @@
 
     div.news-inner-section {
       img {
-        width: 100%;          
+        width: 100%;
       }
       .news-description {
         & > p:first-child {
@@ -481,14 +478,13 @@
     }
   }
   @media (min-width: 768px) {
-    
   }
 }
 
 .contactus {
   @include sections-spacing(30px);
   background-color: $light-blue;
-  background-image: linear-gradient(to right, #28d2cf , #1071e3);
+  background-image: linear-gradient(to right, #28d2cf, #1071e3);
 
   input {
     border-radius: 8px;
@@ -496,7 +492,7 @@
   }
   .form-inputs p {
     font-size: 0.8rem;
-   // margin-top: 0.5rem;
+    // margin-top: 0.5rem;
     color: #f00e0e;
   }
 
@@ -523,7 +519,7 @@
 
 .footer {
   background-color: $blue-color;
-  margin: 4px 0 0;
+  margin: 25px 0 0;
   padding: 69px 70px 64px 70px;
   color: $white-color;
   font-stretch: normal;
@@ -567,8 +563,8 @@
   .social-icons {
     padding-left: 0;
     li {
-       list-style: none;
-       float: left;
+      list-style: none;
+      float: left;
 
       img {
         @include sections-spacing(21.5px);
@@ -580,7 +576,7 @@
     }
   }
 
-  .footerend{
+  .footerend {
     @include sections-spacing(63.6px);
     font-size: 11px;
     font-weight: 500;
@@ -595,28 +591,28 @@
 
   // Small devices (landscape phones, 576px and up)
   @media (max-width: 767px) {
- //   margin: 41px 0 0;
+    //   margin: 41px 0 0;
     padding: 25px 0px 38.8px 10px;
-  //  background-color: #22265d;
+    //  background-color: #22265d;
 
-    .line{
-     // width: 353.5px;
-    // margin-left: 30px;
+    .line {
+      // width: 353.5px;
+      // margin-left: 30px;
       opacity: 0.8;
-    //  border: solid 0.5px #ffffff;
+      //  border: solid 0.5px #ffffff;
     }
 
     .logo {
       margin-bottom: 16.3px;
     }
-  
+
     .footer-title {
       @include sections-spacing(20px);
-    //  height: 19px;
+      //  height: 19px;
       font-size: 14px;
       line-height: 1.29;
     }
-  
+
     .footer-sub-title {
       @include sections-spacing(12px);
       font-size: 13px;
@@ -625,14 +621,14 @@
       text-align: left;
       color: $white-color;
     }
-  
+
     .social-icons {
       padding-left: 0;
-  
+
       li {
         list-style: none;
         float: left;
-  
+
         img {
           @include sections-spacing(21.5px);
           margin-right: 17.3px;
@@ -643,8 +639,8 @@
         }
       }
     }
-  
-    .footerend{
+
+    .footerend {
       @include sections-spacing(40px);
       margin-bottom: 38.8px;
       font-size: 11px;

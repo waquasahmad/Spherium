@@ -32,7 +32,7 @@ const News = () => {
                         return (
                             <div className="col-md-4 col-sm-12 news-section prm0">
                                 <div className="news-inner-section">
-                                    <img src={news.newsImg} className="mobile" />
+                                    <img src={news.newsImg} className="mobile" alt="news"/>
                                     <div className="news-description">
                                         <p>{news.newsDescription1}</p>
                                         <p>{news.newsDescription2}</p>

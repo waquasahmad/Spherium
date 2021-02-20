@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container-fluid">
         <div className="row g-0">
           <div className="col-md-2 col-12">
-            <img src={footer_logo} className="logo" />
+            <img src={footer_logo} className="logo" alt="logo" />
             <p>
               Spherium Pte. Ltd. 3 Fraser Street #05-25 Duo Tower, Singapore
               189352
@@ -26,13 +26,13 @@ const Footer = () => {
               <li>
                 {" "}
                 <a href="https://t.me/SpheriumCommunity" target="_blank">
-                  <img src={messanger} />{" "}
+                  <img src={messanger} alt="messanger" />{" "}
                 </a>
               </li>
               <li>
                 {" "}
                 <a href="https://twitter.com/SpheriumFinance" target="_blank">
-                  <img src={twitter} />
+                  <img src={twitter} alt="twitter" />
                 </a>{" "}
               </li>
               <li>
@@ -41,7 +41,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/company/spherium"
                   target="_blank"
                 >
-                  <img src={linkedin} />{" "}
+                  <img src={linkedin} alt="social" />{" "}
                 </a>
               </li>
               <li>
@@ -50,13 +50,13 @@ const Footer = () => {
                   href="https://www.youtube.com/channel/UC3RKsQpOax4BWAxsDQosk7g"
                   target="_blank"
                 >
-                  <img src={youtube} />
+                  <img src={youtube} alt="social" />
                 </a>
               </li>
               <li>
                 {" "}
                 <a href="https://spheriumlabs.medium.com/" target="_blank">
-                  <img src={messanger1} />
+                  <img src={messanger1} alt="social" />
                 </a>{" "}
               </li>
             </ul>
@@ -278,13 +278,13 @@ const Footer = () => {
               <li>
                 {" "}
                 <a href="https://t.me/SpheriumCommunity" target="_blank">
-                  <img src={messanger} />{" "}
+                  <img src={messanger} alt="social" />{" "}
                 </a>
               </li>
               <li>
                 {" "}
                 <a href="https://twitter.com/SpheriumFinance" target="_blank">
-                  <img src={twitter} />
+                  <img src={twitter} alt="social" />
                 </a>{" "}
               </li>
               <li>
@@ -293,7 +293,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/company/spherium"
                   target="_blank"
                 >
-                  <img src={linkedin} />{" "}
+                  <img src={linkedin} alt="social" />{" "}
                 </a>
               </li>
               <li>
@@ -302,19 +302,19 @@ const Footer = () => {
                   href="https://www.youtube.com/channel/UC3RKsQpOax4BWAxsDQosk7g"
                   target="_blank"
                 >
-                  <img src={youtube} />
+                  <img src={youtube} alt="social" />
                 </a>
               </li>
               <li>
                 {" "}
                 <a href="https://spheriumlabs.medium.com/" target="_blank">
-                  <img src={messanger1} />
+                  <img src={messanger1} alt="social" />
                 </a>{" "}
               </li>
             </div>
           </div>
           <div className="col-sm-12 web-view">
-            <div className="footerend">
+            <div className="footerend" alt="social">
               <p>©2020 Spherium Pte LTD. | All right reserved</p>
             </div>
           </div>

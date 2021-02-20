@@ -1,92 +1,91 @@
 @import "utilities/variables";
 
 .home-details-section {
-  	background-color: $blue-color;
-	color: $white-color;
-	min-height: 535px;
-	@include sections-spacing(70px);
+  background-color: $blue-color;
+  color: $white-color;
+  min-height: 535px;
+  @include sections-spacing(70px);
 
-	.headings {
-		@include sections-spacing(72px);
-		width: 472px;
-        height: 165px;
-	  	font-size: 29px;
-	  	font-weight: bold;
-	  	font-stretch: normal;
-	  	font-style: normal;
-	  	line-height: 1.45;
-	  	letter-spacing: normal;
-	  	text-align: left;
-	}
+  .headings {
+    @include sections-spacing(72px);
+    width: 472px;
+    height: 165px;
+    font-size: 29px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+  }
 
-  	.description {
-		@include sections-spacing(20px);
-		width: 472px;
-        height: 102px;
-	  	color: $white-color;
-	  	font-size: 16px;
-	    font-weight: 500;
-	    line-height: 1.63;
-	    letter-spacing: normal;
-	    text-align: left;
-  	}
-   
-	.globe-section {
-		@include sections-spacing(86px);
-		text-align: center;
-  	  .geography {
-		text-align: center;
-  		width: 370px;
-  		height: 370px;
-	   }
-	}
+  .description {
+    @include sections-spacing(20px);
+    width: 472px;
+    height: 102px;
+    color: $white-color;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+  }
 
-  	.section1-buttons {
-		  @include sections-spacing(40px);
-		  margin-left: 0px;
-		  font-size: 14px;
-          font-weight: bold;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.43;
-          letter-spacing: normal;
-          color: #000348;
-  	}
+  .globe-section {
+    @include sections-spacing(86px);
+    text-align: center;
+    .geography {
+      text-align: center;
+      width: 370px;
+      height: 370px;
+    }
+  }
 
-  	// Small devices (landscape phones, 576px and up)
-	@media (max-width: 768px) {
-		padding: 0 0 0 30px;
+  .section1-buttons {
+    @include sections-spacing(10px);
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #000348;
+  }
 
-		.headings {
-			@include sections-spacing(48px);
-			width: 303px;
-			height: 200px;
-			line-height: 1.42;
-			font-size: 24px;
-		}
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 768px) {
+    padding: 0 0 0 30px;
 
-		.description {
-			@include sections-spacing(20px);
-			width: 327px;
-            height: 102px;
-			font-size: 14px;
-			line-height: 1.43;
-		  }
+    .headings {
+      @include sections-spacing(48px);
+      width: 303px;
+      line-height: 1.42;
+      font-size: 24px;
+    }
 
-		.section1-buttons {
-			@include sections-spacing(30px);
-			margin-left: 0px;
-		}
-		.globe-section {
-			margin-top: 0px;
-			max-height: 134.1px;
-			overflow: hidden;
-		}
-	}
+    .description {
+      @include sections-spacing(20px);
+      width: 327px;
+      // height: 102px;
+      font-size: 14px;
+      line-height: 1.43;
+    }
 
-	// @media (min-width: 769px) {
-	// 	.description {
-	// 		max-width: 75%;
-	// 	}
-	// }
+    .section1-buttons {
+     @include sections-spacing(0px);
+      margin-left: 0px;
+    }
+    .globe-section {
+      margin-top: 0px;
+      max-height: 134.1px;
+      overflow: hidden;
+    }
+  }
+
+  // @media (min-width: 769px) {
+  // 	.description {
+  // 		max-width: 75%;
+  // 	}
+  // }
 }

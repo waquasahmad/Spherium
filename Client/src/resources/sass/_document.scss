@@ -90,15 +90,14 @@
     .right-side {
       padding-left: 30px;
       .whitepaper {
-        @include sections-spacing(15px);
+        @include sections-spacing(40px);
         .btn {
-          @include sections-spacing(5px);
           float: left;
         }
       }
 
       .tokenomics {
-        @include sections-spacing(90px);
+        @include sections-spacing(110px);
         .tokenomics {
           @include sections-spacing(0px);
           width: 323px;

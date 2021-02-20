@@ -2,227 +2,211 @@
 
 // Start Section 1
 
-.team-section-1-container{
-    background-color: $blue-color;
+.team-section-1-container {
+  background-color: $blue-color;
+  color: $white-color;
+  @include sections-spacing(70px);
+  .title {
+    @include sections-spacing(52px);
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
     color: $white-color;
-    @include sections-spacing(70px);
-    .title{
-        @include sections-spacing(52px);
-        font-size: 24px;
-        font-weight: bold;
+    align-items: center;
+  }
+
+  .subtitle {
+    width: 100%;
+    .map {
+      @include sections-spacing(49.8px);
+      margin-left: auto;
+      margin-right: auto;
+      width: 741.4px;
+      height: 307px;
+    }
+
+    .subtext {
+      @include sections-spacing(38px);
+      margin-left: auto;
+      margin-right: auto;
+      width: 779px;
+      height: 98px;
+      font-size: 13px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: center;
+    }
+  }
+
+  .teambutton {
+    width: 100%;
+    margin: 30px 0 66px 0px;
+    text-align: center;
+
+    .btn {
+      padding-top: 13px;
+      width: 142px;
+      height: 48px;
+      border-radius: 8px;
+      background-color: $light-blue;
+      color: $button-color;
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      text-align: center;
+      color: $title-font-color;
+    }
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 768px) {
+    .title {
+      margin: 30px 0 0 30px;
+      font-size: 24px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.42;
+      letter-spacing: normal;
+      text-align: left;
+    }
+
+    .subtitle {
+      width: 100%;
+      .subtext {
+        margin: 20px 0 0 30px;
+        width: 315px;
+        height: 218px;
+        font-size: 14px;
+        font-weight: 500;
         font-stretch: normal;
         font-style: normal;
-        line-height: 1.75;
+        line-height: 1.43;
         letter-spacing: normal;
-        text-align: center;
-        color: $white-color;
-        align-items: center;
+        text-align: left;
+      }
     }
 
-    .subtitle{
-        width: 100%;
-        .map{
-            @include sections-spacing(49.8px);
-            margin-left: auto;
-            margin-right: auto;
-            width: 741.4px;
-            height: 307px;
-            }
-        
-        .subtext{
-            @include sections-spacing(38px);
-            margin-left: auto;
-            margin-right: auto;
-            width: 779px;
-            height: 98px;
-            font-size: 13px;
-            font-weight: 500;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 2;
-            letter-spacing: normal;
-            text-align: center;
-    
-        }
+    .teambutton {
+      width: 100%;
+      margin: 24px 0 15px 0;
+      text-align: left;
 
+      .btn {
+        margin-left: 30px;
+      }
     }
 
-    .teambutton{
-        width:100%;
-        margin: 30px 0 66px 0px;
-        text-align: center;
-
-        .btn{
-            padding-top: 13px;
-            width: 142px;
-            height: 48px;
-            border-radius: 8px;
-            background-color: $light-blue;
-            color: $button-color;
-            font-size: 14px;
-            font-weight: bold;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.43;
-            letter-spacing: normal;
-            text-align: center;
-            color: $title-font-color;
-         }
-
+    .mapmobile {
+      width: 414px;
+      height: 219px;
+      object-fit: contain;
     }
-   
+  }
 
-    // Small devices (landscape phones, 576px and up)
-	@media (max-width: 768px) {
-
-        .title{
-            margin: 30px 0 0 30px;
-            font-size: 24px;
-            font-weight: bold;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.42;
-            letter-spacing: normal;
-            text-align: left;
-        }
-
-        .subtitle{
-            width: 100%;
-            .subtext{
-                margin: 20px 0 0 30px;
-                width: 315px;
-                height: 218px;
-                font-size: 14px;
-                font-weight: 500;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.43;
-                letter-spacing: normal;
-                text-align: left;
-            }
-        }
-
-        
-        .teambutton{
-            width: 100%;
-            margin: 24px 0 15px 0;
-            text-align: left;
-
-            .btn{
-               margin-left: 30px;
-            }
-        }
-
-        .mapmobile{
-            width: 414px;
-            height: 219px;
-            object-fit: contain;
-        }
-    
-
+  @media (min-width: 769px) {
+    .subtitle {
     }
-
-    @media (min-width: 769px) {
-		.subtitle {
-		}
-	}
+  }
 }
-
 
 // Start Section 2
 
-.team-section-2-container{
-    @include sections-spacing(50px);
-    color: #000348;
-    text-align: center;
-    font-stretch: normal;
-    font-style: normal;
+.team-section-2-container {
+  @include sections-spacing(50px);
+  color: #000348;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.42;
     letter-spacing: normal;
-    .heading{
-        font-size: 24px;
-        font-weight: bold;
-        line-height: 1.42;
-        letter-spacing: normal;
-        text-align: center;
+    text-align: center;
+  }
+
+  .teamdetails {
+    @include sections-spacing(40px);
+    .item {
+      width: 100%;
+    }
+    .userImg {
+      width: 100px;
+      height: 100px;
+      margin-left: 0px;
+      border-radius: 70px;
+      transition-duration: 0.7s;
+
+      &:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5);
+      }
     }
 
-
-    .teamdetails{
-        @include sections-spacing(40px);
-        .item{
-            width:100%;
-            }
-        .userImg{
-            width: 100px;
-            height: 100px;
-            margin-left:0px;
-            border-radius: 70px;
-            transition-duration: 0.7s;
-
-            &:hover{
-                -ms-transform: scale(1.5); /* IE 9 */
-                -webkit-transform: scale(1.5); /* Safari 3-8 */
-                transform: scale(1.5);
-            }
-        }
-
-        .name{
-         //   @include sections-spacing(23px);
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 2.13;
-            letter-spacing: normal;
-        }
-
-        .designation{
-         //   @include sections-spacing(5px);
-            font-size: 12px;
-            font-weight: 600;
-            line-height: 1.67;
-            color: rgba(0, 0, 0, 0.8);
-        }
-
-       
-
+    .name {
+      //   @include sections-spacing(23px);
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 2.13;
+      letter-spacing: normal;
     }
 
-     // Small devices (landscape phones, 576px and up)
-	@media (max-width: 768px) {
-       @include sections-spacing(40px);
-        padding: 0px 0 0 30px;
-        .heading{
-            font-size: 18px;
-            font-weight: bold;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.5;
-            letter-spacing: normal;
-            text-align: left;
-        }
-        
-        .teamdetails{
-            @include sections-spacing(43px);
-            .item{
-                width:100%
-            }
-            .userImg{
-                width: 84px;
-                height: 84px;
-            }
-    
-            .name{
-             //   @include sections-spacing(23px);
-                font-size: 14px;
-                line-height: 2.43;
-            }
-    
-            .designation{
-             //   @include sections-spacing(5px);
-               
-            }
-    
-        }
+    .designation {
+      //   @include sections-spacing(5px);
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1.67;
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
 
+  // Small devices (landscape phones, 576px and up)
+  @media (max-width: 768px) {
+    @include sections-spacing(40px);
+    padding: 0px 0 0 30px;
+    .heading {
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      // text-align: left;
     }
 
+    .teamdetails {
+      @include sections-spacing(43px);
+      .item {
+        width: 100%;
+      }
+      .userImg {
+        width: 84px;
+        height: 84px;
+      }
+
+      .name {
+        //   @include sections-spacing(23px);
+        font-size: 14px;
+        line-height: 1.67;
+      }
+
+      .designation {
+        //   @include sections-spacing(5px);
+        line-height: 1.67;
+      }
+    }
+  }
 }

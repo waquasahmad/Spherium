@@ -24,12 +24,19 @@ import SphereCompWallet from './SphereCompWallet';
 import Document from './Document';
 import AOS from "aos";
 import TermsAndPolicy from './TermsAndPolicy';
+import WOW from "wowjs";
 
 const App = () => {
 
   useEffect(() => {
     AOS.init({ duration: 2000});
 }, []);
+
+useEffect(() => {
+  new WOW.WOW({
+    live: false,
+  }).init();
+});
 
   return (
     <>

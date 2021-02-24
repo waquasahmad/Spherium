@@ -65,7 +65,7 @@
     }
 
     .description {
-      @include sections-spacing(20px);
+      @include sections-spacing(50px);
       width: 327px;
       // height: 102px;
       font-size: 14px;
@@ -73,13 +73,19 @@
     }
 
     .section1-buttons {
-     @include sections-spacing(0px);
+      @include sections-spacing(0px);
       margin-left: 0px;
     }
     .globe-section {
       margin-top: 0px;
       max-height: 134.1px;
       overflow: hidden;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .description {
+      @include sections-spacing(50px);
     }
   }
 

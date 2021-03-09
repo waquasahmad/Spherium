@@ -22,7 +22,7 @@ const Section1 = () => {
                   one-stop platform in the De-Fi space with a minimal effort.
                 </p>
               </div>
-              <div className="row col-12 section1-buttons">
+              <div className="row section1-buttons">
                 <Link className="btn white-paper" to="/contactus">
                   Contact us
                 </Link>{" "}
@@ -33,7 +33,7 @@ const Section1 = () => {
               </div>
             </div>
             <div
-              className="col-md-6 col-sm-12 text-align-right globe-section"
+              className="col-md-6 col-12 text-align-right globe-section"
               data-aos="fade-up"
             >
               <img src={globe} className="geography" alt="globe" />

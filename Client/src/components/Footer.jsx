@@ -14,10 +14,10 @@ const Footer = () => {
         <div className="row g-0">
           <div className="col-md-2 col-12">
             <img src={footer_logo} className="logo" alt="logo" />
-            <p>
+            {/* <p>
               Spherium Pte. Ltd. 3 Fraser Street #05-25 Duo Tower, Singapore
               189352
-            </p>
+            </p> */}
           </div>
           <hr className="line mobile-view" />
           <div className="col-12 mobile-view">
@@ -269,7 +269,7 @@ const Footer = () => {
 
           <div className="col-12 mobile-view">
             <div className="footerend">
-              <span>©2020 Spherium Pte LTD. | All right reserved</span>
+              <span>©2020 Spherium | All right reserved</span>
             </div>
           </div>
           <div className="col-md-2 web-view">
@@ -315,7 +315,7 @@ const Footer = () => {
           </div>
           <div className="col-sm-12 web-view">
             <div className="footerend" alt="social">
-              <p>©2020 Spherium Pte LTD. | All right reserved</p>
+              <p>©2020 Spherium | All right reserved</p>
             </div>
           </div>
         </div>

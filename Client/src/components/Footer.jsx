@@ -269,7 +269,7 @@ const Footer = () => {
 
           <div className="col-12 mobile-view">
             <div className="footerend">
-              <span>©2020 Spherium | All right reserved</span>
+              <span>©2021 Spherium | All right reserved</span>
             </div>
           </div>
           <div className="col-md-2 web-view">
@@ -315,7 +315,7 @@ const Footer = () => {
           </div>
           <div className="col-sm-12 web-view">
             <div className="footerend" alt="social">
-              <p>©2020 Spherium | All right reserved</p>
+              <p>©2021 Spherium | All right reserved</p>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
-import hyperswap from "../resources/images/hyperswap.png";
-import spherecomp from "../resources/images/spherecomp.png";
-import spheriumwallet from "../resources/images/spheriumwallet.png";
+import hyperswap from "../resources/images/hyperswap.svg";
+import spherecomp from "../resources/images/spherecomp.svg";
+import spheriumwallet from "../resources/images/spheriumwallet.svg";
 import right_arrow from "../resources/images/right_arrow.png";
 import right_arrow_blue from "../resources/images/right_arrow_blue.png";
 import { Link, useHistory } from "react-router-dom";

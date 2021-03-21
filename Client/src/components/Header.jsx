@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../resources/images/logo.png";
+import logo from "../resources/images/logo.svg";
 import menu from "../resources/images/noun_menu.png";
-import message from "../resources/images/message_icon.png";
+import message from "../resources/images/message_icon.svg";
 
 const Header = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);

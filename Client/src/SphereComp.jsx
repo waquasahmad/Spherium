@@ -21,12 +21,12 @@ import cube from "./resources/images/cube.svg";
 import vline from "./resources/images/vline.svg";
 import mfLine from "./resources/images/mfLine.svg";
 import msLine from "./resources/images/msLine.svg";
-import spheriumwallet from "./resources/images/spheriumwallet.png";
+import spheriumwallet from "./resources/images/spheriumwallet.svg";
 import spheriumwallet2x from "./resources/images/spheriumwallet@2x.png";
 import spheriumwallet3x from "./resources/images/spheriumwallet@3x.png";
 import right_arrow from "./resources/images/right_arrow.png";
 import right_arrow_blue from "./resources/images/right_arrow_blue.png";
-import hyperswap from "./resources/images/hyperswap.png";
+import hyperswap from "./resources/images/hyperswap.svg";
 import hyperswap2x from "./resources/images/hyperswap@2x.png";
 import hyperswap3x from "./resources/images/hyperswap@3x.png";
 import { useHistory } from "react-router-dom";
@@ -167,15 +167,11 @@ const Section4 = () => {
     {
       id: "0",
       productImg: spheriumwallet,
-      productImg2x: spheriumwallet2x,
-      productImg3x: spheriumwallet3x,
       productTittle: "Spherium Wallet",
     },
     {
       id: "1",
       productImg: hyperswap,
-      productImg2x: hyperswap2x,
-      productImg3x: hyperswap3x,
       productTittle: "HyperSwap",
     },
   ];
@@ -207,7 +203,7 @@ const Section4 = () => {
               >
                 <img
                   src={product.productImg}
-                  srcSet={`${product.productImg} 300w, ${product.productImg2x} 768w, ${product.productImg3x} 1280w`}
+                 // srcSet={`${product.productImg} 300w, ${product.productImg2x} 768w, ${product.productImg3x} 1280w`}
                   className="product_icon"
                   alt="product"
                 />

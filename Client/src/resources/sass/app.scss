@@ -34,6 +34,10 @@
     &:hover {
       background-image: linear-gradient(to right, #28d2cf, #1071e3);
     }
+    .product-icon {
+      width: 52px;
+    //  height: 51px;
+    }
     .title {
       @include fontsize(18px);
       margin-top: 8px;
@@ -530,8 +534,8 @@
 
   .logo {
     margin-bottom: 25.1px;
-    width: 156px;
-    height: 41.3px;
+    width: 200px;
+    // height: 41.3px;
     object-fit: contain;
   }
 

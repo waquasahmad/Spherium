@@ -11,7 +11,7 @@ const Tokenomics = () => {
         </div>
         <div className="description">
           <p>
-            The process of the Spherium token allocation will be based on a
+            The process of Spherium token allocation will be based on a
             community-type distribution, whereby each of these stakeholders will
             play an important part of the ecosystem. 
             Spherium Labs and the Foundation are deeply committed to the long-term vesting that demonstrates our dedication to make Spherium the de-facto DeFi platform.

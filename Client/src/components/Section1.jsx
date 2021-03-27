@@ -13,7 +13,7 @@ const Section1 = () => {
               <div className="headings">
                 <p>
                   A decentralised and borderless financial ecosystem that gives
-                  users a complete control of their finances
+                  users complete control of their finances
                 </p>
               </div>
               <div className="description">

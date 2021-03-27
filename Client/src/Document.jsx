@@ -35,7 +35,7 @@ const Document = () => {
         <div className="tokenomics col-12" id="tokenomics">
           <span className="title">Tokenomics</span>
           <p className="description">
-            The process of the Spherium token allocation will be based on a
+            The process of Spherium token allocation will be based on a
             community-type distribution, whereby each of these stakeholders will
             play an important part of the ecosystem. We intend to use the
             following distribution chart:

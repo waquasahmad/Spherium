@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa641612.chunk.css",
-    "main.js": "/static/js/main.f3f90bd5.chunk.js",
-    "main.js.map": "/static/js/main.f3f90bd5.chunk.js.map",
+    "main.css": "/static/css/main.84b35880.chunk.css",
+    "main.js": "/static/js/main.694bc1e2.chunk.js",
+    "main.js.map": "/static/js/main.694bc1e2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0c358be.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0c358be.js.map",
     "static/css/2.6d8fa2e2.chunk.css": "/static/css/2.6d8fa2e2.chunk.css",
-    "static/js/2.745876ab.chunk.js": "/static/js/2.745876ab.chunk.js",
-    "static/js/2.745876ab.chunk.js.map": "/static/js/2.745876ab.chunk.js.map",
+    "static/js/2.d117e1d0.chunk.js": "/static/js/2.d117e1d0.chunk.js",
+    "static/js/2.d117e1d0.chunk.js.map": "/static/js/2.d117e1d0.chunk.js.map",
     "static/js/3.4e02fb65.chunk.js": "/static/js/3.4e02fb65.chunk.js",
     "static/js/3.4e02fb65.chunk.js.map": "/static/js/3.4e02fb65.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.6d8fa2e2.chunk.css.map": "/static/css/2.6d8fa2e2.chunk.css.map",
-    "static/css/main.fa641612.chunk.css.map": "/static/css/main.fa641612.chunk.css.map",
-    "static/js/2.745876ab.chunk.js.LICENSE.txt": "/static/js/2.745876ab.chunk.js.LICENSE.txt",
+    "static/css/main.84b35880.chunk.css.map": "/static/css/main.84b35880.chunk.css.map",
+    "static/js/2.d117e1d0.chunk.js.LICENSE.txt": "/static/js/2.d117e1d0.chunk.js.LICENSE.txt",
     "static/media/Aanchal Thakur3.f6d78afa.jfif": "/static/media/Aanchal Thakur3.f6d78afa.jfif",
     "static/media/Alex Berstein1.0454e418.jfif": "/static/media/Alex Berstein1.0454e418.jfif",
     "static/media/Behzad Pournouri.bed81ef8.jfif": "/static/media/Behzad Pournouri.bed81ef8.jfif",
@@ -53,7 +53,6 @@
     "static/media/Wallet_Main.f8989a2d.png": "/static/media/Wallet_Main.f8989a2d.png",
     "static/media/Wallet_Main@2x.8b9ecb5b.png": "/static/media/Wallet_Main@2x.8b9ecb5b.png",
     "static/media/Wallet_Main@3x.cb913cf9.png": "/static/media/Wallet_Main@3x.cb913cf9.png",
-    "static/media/ceo.f6a8bd15.jpeg": "/static/media/ceo.f6a8bd15.jpeg",
     "static/media/cube.b12547a2.svg": "/static/media/cube.b12547a2.svg",
     "static/media/ellipse.2c6ab597.svg": "/static/media/ellipse.2c6ab597.svg",
     "static/media/footer_logo.1b784945.svg": "/static/media/footer_logo.1b784945.svg",
@@ -82,6 +81,8 @@
     "static/media/mobileprogress@3x.71381165.png": "/static/media/mobileprogress@3x.71381165.png",
     "static/media/msLine.e5436e32.svg": "/static/media/msLine.e5436e32.svg",
     "static/media/one.861732fb.svg": "/static/media/one.861732fb.svg",
+    "static/media/powered_logo2.e567ddcc.png": "/static/media/powered_logo2.e567ddcc.png",
+    "static/media/powered_logo3.83e56697.png": "/static/media/powered_logo3.83e56697.png",
     "static/media/product_road_map.012fb82b.svg": "/static/media/product_road_map.012fb82b.svg",
     "static/media/product_road_map_mobile.3f7e3551.svg": "/static/media/product_road_map_mobile.3f7e3551.svg",
     "static/media/rewards_progress.2a5a05b7.svg": "/static/media/rewards_progress.2a5a05b7.svg",
@@ -116,8 +117,8 @@
   "entrypoints": [
     "static/js/runtime-main.d0c358be.js",
     "static/css/2.6d8fa2e2.chunk.css",
-    "static/js/2.745876ab.chunk.js",
-    "static/css/main.fa641612.chunk.css",
-    "static/js/main.f3f90bd5.chunk.js"
+    "static/js/2.d117e1d0.chunk.js",
+    "static/css/main.84b35880.chunk.css",
+    "static/js/main.694bc1e2.chunk.js"
   ]
 }

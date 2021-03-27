@@ -12,12 +12,7 @@ const Governance = () => {
         </div>
         <div className="description">
           <p>
-            Spherium aspires to be a true DeFi. The full control of the
-            Governance model will be handed over to SPH token holders by March
-            31, 2022, at approximately 12:00 GMT. In the meantime, the Spherium
-            core team will make decisions whenever needed for the wider interest
-            of the Spherium ecosystem but will provide a 30-day period between
-            decision and implementation.
+          Spherium will implement its on-chain governance protocol by March 31, 2022, at approximately 12:00 GMT. Spherium Team and Foundation will be responsible for all development and implementation decisions until our on-chain governance protocol is live.
           </p>
         </div>
         <div className="button-section web-view">

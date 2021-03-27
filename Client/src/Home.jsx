@@ -7,8 +7,10 @@ import Products from './components/Products'
 import ProductsRoadMap from './components/ProductsRoadMap'
 import Section1 from './components/Section1'
 import Section2 from './components/Section2'
+import Section3 from './components/Section3'
 import Tokenomics from './components/Tokenomics'
 import Vision from './components/Vision'
+import WhatWeSolve from './components/WhatWeSolve'
 import { Link } from 'react-router-dom'
 
 
@@ -18,6 +20,8 @@ const Home = () => {
         <Section1 />
         <div className="container sections-start">
           <Section2 />
+          <Section3 />
+          <WhatWeSolve />
           <Products />
           <ProductsRoadMap />
           <Vision />

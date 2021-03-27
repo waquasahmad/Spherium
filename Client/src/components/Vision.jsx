@@ -1,103 +1,77 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ceo from "../resources/images/ceo.jpeg";
-import quote from "../resources/images/quote.png";
-
+import { AiFillLinkedin } from "react-icons/ai";
+import AlexBerstein from "../resources/images/leadershipteam/Alex Berstein1.jfif";
+import SashJeetun from "../resources/images/leadershipteam/Sash Jeetun2.jfif";
+import AanchalThakur from "../resources/images/leadershipteam/Aanchal Thakur3.jfif";
+const advisor = {
+    alex:'https://www.linkedin.com/in/alex-berstein-b1965910',
+    sash:'https://www.linkedin.com/in/jeetunsash',
+    aanchal: "https://www.linkedin.com/in/ca-aanchal-thakur-33082218/",
+  };
 const Vision = () => {
   return (
     <div className="vision-section wow fadeInUp" data-wow-delay=".5s">
       <div className="row g-0">
-        <div className="col-md-6 col-sm-12 left-container">
-          <div className="title">A message from CEO</div>
+        
+        <div className="col-md-12 col-sm-12 left-container">
+          <div className="title">Core Team</div>
           <div className="row g-0">
-            <div className="col-md-12 col-5">
-              <img src={ceo} className="ceo" alt="ceo" />
-              <div className="clearfix"></div>
-            </div>
+           
             <div className="col-md-12 col-7">
-              <div className="quote">
-                <img src={quote} alt="quote" />
-              </div>
-              <div className="description">
-                <div>
-                  Banks are people making the rules. Finance is the knowledge of
-                  the market specifying those rules.{" "}
-                </div>
-                <div>
-                  <strong>
-                    Spherium is the freedom to live by your own rules.
-                  </strong>
-                </div>
-              </div>
-              <div className="row col-md-12 signature">
-                <div className="col-md-6 col-sm-12">
+             <div className="row col-md-12 signature">
+                <div className="col-md-4 col-sm-12 text-center">
+                <img src={AlexBerstein} className="ceoAd" alt="ceo" />
+              <div className="clearfix"></div>
                   <span>
                     <strong>Alex Berstein</strong>
                   </span>
                   <br />
                   <span>CEO, Spherium Labs</span>
+                  <div className="col social_icon mb-2">
+                  <a href={advisor.alex}>
+                    <AiFillLinkedin style={{ fontSize: "24px" }} />
+                  </a>
+                  {/* <a href={advisor.twitter}><AiFillTwitterSquare /></a> */}
                 </div>
-                <div className="col-md-6 col-sm-12 text-align-right meet-our-team">
-                  <Link to="/team">Meet our team</Link>
                 </div>
+                <div className="col-md-4 col-sm-12 text-center">
+                <img src={SashJeetun} className="ceoAd" alt="ceo" />
+              <div className="clearfix"></div>
+                  <span>
+                    <strong>Sash Jeetun</strong>
+                  </span>
+                  <br />
+                  <span>Co-Founder & COO</span>
+                  <div className="col social_icon mb-2">
+                  <a href={advisor.sash}>
+                    <AiFillLinkedin style={{ fontSize: "24px" }} />
+                  </a>
+                  {/* <a href={advisor.twitter}><AiFillTwitterSquare /></a> */}
+                </div>
+                </div>
+                <div className="col-md-4 col-sm-12 text-center">
+                <img src={AanchalThakur} className="ceoAd" alt="ceo" />
+              <div className="clearfix"></div>
+                  <span>
+                    <strong>Aanchal Thakur</strong>
+                  </span>
+                  <br />
+                  <span>Co-Founder & Deputy CEO</span>
+                  <div className="col social_icon mb-2">
+                  <a href={advisor.aanchal}>
+                    <AiFillLinkedin style={{ fontSize: "24px" }} />
+                  </a>
+                  {/* <a href={advisor.twitter}><AiFillTwitterSquare /></a> */}
+                </div>
+                </div>
+              
               </div>
             </div>
-            <div className="col-sm-12 mobile-view">
-              <div className="title">Vision</div>
-              <p>
-                Spherium is one of the global leading platforms in the DeFi
-                space making digital finance a part of people's lives by
-                developing the most innovative tools of the DeFi sector.
-                Spherium token/wallet/swap solutions will not only be
-                transforming processes, businesses, goods, and services into an
-                economic network of value but most importantly will create an
-                infrastructure where everyone can become their wealth and asset
-                manager via their mobile device.
-              </p>
-
-              <p>
-                Spherium will play a vital part in evolving traditional finance
-                and redistributing the profits and power balance of the shared
-                financial system to the users. Spherium aims to create an
-                ecosystem where every individual, irrespective of their
-                geographical location, faith, and social standing becomes its
-                own “Wealth Manager” that ensures maximum returns on their
-                investments with relatively low risk. To realize this vision,
-                Spherium’s team of 30 global DeFi experts with diverse areas of
-                expertise including fintech, law, smart contract development,
-                business development, AML/KYC, and blockchain research is
-                focusing on services that will unleash the potential DeFi
-                revolution.
-              </p>
-            </div>
+            
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 right-container web-view">
-          <div className="title">Vision</div>
-          <p>
-            Spherium is one of the global leading platforms in the DeFi space
-            making digital finance a part of people's lives by developing the
-            most innovative tools of the DeFi sector. Spherium token/wallet/swap
-            solutions will not only be transforming processes, businesses,
-            goods, and services into an economic network of value but most
-            importantly will create an infrastructure where everyone can become
-            their wealth and asset manager via their mobile device.
-          </p>
-
-          <p>
-            Spherium will play a vital part in evolving traditional finance and
-            redistributing the profits and power balance of the shared financial
-            system to the users. Spherium aims to create an ecosystem where
-            every individual, irrespective of their geographical location,
-            faith, and social standing becomes its own “Wealth Manager” that
-            ensures maximum returns on their investments with relatively low
-            risk. To realize this vision, Spherium’s team of 30 global DeFi
-            experts with diverse areas of expertise including fintech, law,
-            smart contract development, business development, AML/KYC, and
-            blockchain research is focusing on services that will unleash the
-            potential DeFi revolution.
-          </p>
-        </div>
+        
       </div>
     </div>
   );

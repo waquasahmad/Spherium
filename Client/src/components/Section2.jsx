@@ -14,11 +14,7 @@ const Section2 = () => {
             </div>
             <div className="subtitle">
               <p>
-                Spherium offers a collection of DeFi services including a
-                universally usable wallet, token swap platform, money markets,
-                and inter-blockchain liquidity transfer, which will further be
-                enriched by integrating new innovative services developed by the
-                Spherium team in the near future.
+              Spherium offers a complete suite of financial services comprising a universal wallet, token swap platform, money markets, and inter-blockchain liquidity transfer. Spherium will function as a global financial service provider, extending fundamental financial services to the unbanked.
               </p>
             </div>
           </div>

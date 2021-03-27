@@ -15,14 +15,14 @@ const Products = () => {
       productImg: hyperswap,
       productTittle: "HyperSwap",
       productDetails:
-        "Decentralized Asset Swap based on an automated market-making mechanism with enhanced features",
+        "Decentralized Asset Swap based on an automated market-making mechanism.",
     },
     {
       id: "1",
       productImg: spherecomp,
       productTittle: "SphereComp",
       productDetails:
-        "Decentralize money market where investors can trade digital assets with auto interest rates.",
+        "Decentralized money market where investors can trade digital assets with auto interest rates.",
     },
     {
       id: "2",
@@ -54,7 +54,7 @@ const Products = () => {
       <div className="product-section wow fadeInUp" data-wow-delay="0.5s">
         <div className="title">
           {" "}
-          <span>Products</span>{" "}
+          <span>Spherium Ecosystem</span>{" "}
         </div>
         <div className="row">
           {products.map((product) => {

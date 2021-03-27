@@ -12,14 +12,13 @@ const Section1 = () => {
             <div className="col-md-6 col-12" data-aos="fade-up">
               <div className="headings">
                 <p>
-                  A decentralised and borderless financial system that gives
+                  A decentralised and borderless financial ecosystem that gives
                   users a complete control of their finances
                 </p>
               </div>
               <div className="description">
                 <p>
-                  Transparent, Decentralized, non-custodial, and user-friendly
-                  one-stop platform in the De-Fi space with a minimal effort.
+                Transparent, Decentralized, non-custodial, and user-friendly one-stop platform in the De-Fi Universe.
                 </p>
               </div>
               <div className="row section1-buttons">

@@ -13,9 +13,7 @@ const Section2 = () => {
               <p>One ecosystem with multiple DeFi offerings</p>
             </div>
             <div className="subtitle">
-              <p>
-              Spherium offers a complete suite of financial services comprising of a universal wallet, token swap platform, money markets, and inter-blockchain liquidity transfer. Spherium will function as a global financial service provider, extending fundamental financial services to the unbanked.
-              </p>
+              <p>Spherium offers a complete suite of financial services comprising a universal wallet, token swap platform, money markets, and inter-blockchain liquidity transfer. Spherium will function as a global financial service provider, extending fundamental financial services to the unbanked.</p>
             </div>
           </div>
           <div className="col-md-7 col-sm-12 video-section">

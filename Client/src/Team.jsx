@@ -99,13 +99,13 @@ const rockstarts = [
     linkedin: "https://www.linkedin.com/in/deepak-vachher-0618b74b",
     twitter: "https://twitter.com/",
   },
-  {
-    userImg: KeirFinlowBates,
-    userName: "Keir Finlow Bates",
-    designation: "Ph.D – CTO",
-    linkedin: "https://www.linkedin.com/in/keirf",
-    twitter: "https://twitter.com/",
-  },
+  // {
+  //   userImg: KeirFinlowBates,
+  //   userName: "Keir Finlow Bates",
+  //   designation: "Ph.D – CTO",
+  //   linkedin: "https://www.linkedin.com/in/keirf",
+  //   twitter: "https://twitter.com/",
+  // },
   {
     userImg: ChristopherMarley,
     userName: "Christopher Marley",
@@ -199,13 +199,13 @@ const rockstarts = [
     twitter: "https://twitter.com/",
   },
 
-  {
-    userImg: TitusAdenugba,
-    userName: "Titus Adenugba",
-    designation: "Community Management",
-    linkedin: "https://www.linkedin.com/in/titusadenugba",
-    twitter: "https://twitter.com/",
-  },
+  // {
+  //   userImg: TitusAdenugba,
+  //   userName: "Titus Adenugba",
+  //   designation: "Community Management",
+  //   linkedin: "https://www.linkedin.com/in/titusadenugba",
+  //   twitter: "https://twitter.com/",
+  // },
 ];
 
 const Section1 = () => {
